@@ -185,7 +185,7 @@
 </template>
 
 <template id="catp_contact_snippet_icon" inherit_id="website.snippets" name="Place into bar">
-    <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
         <t t-snippet="erpi_contact_page.snippet_nc"
         t-thumbnail="/erpi_contact_page/static/img/nc-thumb.png"/>
     </xpath>
