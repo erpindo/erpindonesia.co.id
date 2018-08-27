@@ -5,6 +5,18 @@
     <section class="snippet_nc">
         <section id="nc_gets">
             <div class="container">
+                <div class="floating-btn">
+                    <div class="share-btn-float">
+                        <a href="#" data-toggle="modal" data-target="#nc-share-modal">
+                            <i class="fa fa-share-alt"></i>
+                        </a>
+                    </div>
+                    <div class="download-btn-float">
+                        <a href="/erpi_contact_page/static/src/lib/contacts.vcf" download="contact.vcf" target="_blank">
+                            <i class="fa fa-user-plus"></i>
+                        </a>
+                    </div>
+                </div>
                 <div class="row" id="nc-header">
                     <img src="/erpi_contact_page/static/img/bg-g-c.png" alt="BG G" class="img-g" />
                     <div class="col-xs-12">
@@ -20,11 +32,11 @@
                     </div>
                 </div>
                 <div class="row" id="nc-profile">
-                    <div class="share">
+                    <!-- <div class="share">
                         <a href="#" data-toggle="modal" data-target="#nc-share-modal">
                             <i class="fa fa-share-alt"></i>
                         </a>
-                    </div>
+                    </div> -->
                     <!-- <div class="col-xs-4"> -->
                         <div class="pic">
                             <img src="/erpi_contact_page/static/img/people.svg" alt="" class="img-profile" />
