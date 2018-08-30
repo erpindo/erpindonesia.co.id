@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="catp-comp-costum-style" name="Company Costum Style" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <link href="/erpi_theme_company/static/src/less/costum.less" rel="stylesheet" type="text/less"/>
+        </xpath>
+    </template>
+    <template id="catp-comp-costum-js" name="Company Costum js" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <script type="text/javascript" src="/erpi_theme_company/static/src/js/costum.js"></script>
+        </xpath>
+    </template>
+    <template id="catp-comp-costum-head" name="Company Costum head" inherit_id="web.layout">
+        <xpath expr="//head" position="after">
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet"/>            
+            <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+            <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        </xpath>
+    </template>
+</odoo>

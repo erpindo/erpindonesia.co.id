@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="snippet_catp_comp_test" name="Test Snippet">
+        <section class="snippet_catp_comp_test">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Test Snippet</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_test_icon" inherit_id="website.snippets" name="Place into bar">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_test"
+            t-thumbnail="/theme_catpgov/static/img/nc-thumb.png"/>
+        </xpath>
+    </template>
+
+<!-- divider snippet -->
+     <template id="snippet_catp_comp_divider" name="Divider Page">
+        <section class="snippet_catp_comp_divider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_divider_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_divider"
+            t-thumbnail="/theme_catpgov/static/img/snippet/divider.png"/>
+        </xpath>
+    </template>
+<!-- end divider snippet -->
+
+<!-- paragraph snippet -->
+     <template id="snippet_catp_comp_paragraph" name="Paragraph Snippet">
+        <section class="snippet_catp_comp_paragraph">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis voluptatem ipsum dolorum molestiae inventore reiciendis distinctio consequatur similique, omnis culpa, repudiandae alias quaerat voluptatibus earum magnam libero in voluptatum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis voluptatem ipsum dolorum molestiae inventore reiciendis distinctio consequatur similique, omnis culpa, repudiandae alias quaerat voluptatibus earum magnam libero in voluptatum. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_paragraph_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_paragraph"
+            t-thumbnail="/theme_catpgov/static/img/snippet/paragraph.png"/>
+        </xpath>
+    </template>
+<!-- end paragraph snippet -->
+
+<!-- Page Title snippet -->
+     <template id="snippet_catp_comp_page_title" name="Page Title Snippet">
+        <section class="snippet_catp_comp_page_title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>
+                            Page Title
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_page_title_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_page_title"
+            t-thumbnail="/theme_catpgov/static/img/snippet/title.png"/>
+        </xpath>
+    </template>
+<!-- end Page Title snippet -->
+<!-- Page Sub Title snippet -->
+     <template id="snippet_catp_comp_page_sub_title" name="Page Sub Title Snippet">
+        <section class="snippet_catp_comp_page_sub_title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>
+                            Page Sub Title
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum commodi perferendis repudiandae possimus. Dolor, corporis repudiandae. Voluptates nostrum asperiores fuga magnam natus facere, saepe voluptatem reiciendis perspiciatis facilis blanditiis voluptas!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_page_sub_title_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_page_sub_title"
+            t-thumbnail="/theme_catpgov/static/img/snippet/sub-title.png"/>
+        </xpath>
+    </template>
+<!-- end Page Sub Title snippet -->
+
+<!-- bullet snippet -->
+     <template id="snippet_catp_comp_bullet" name="Bullet Snippet">
+        <section class="snippet_catp_comp_bullet">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>
+                            Bullet List
+                        </h3>
+                        <ul>
+                            <li>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </li>
+                            <li>
+                                Consequuntur facilis voluptatem ipsum dolorum molestiae inventore reiciendis distinctio
+                            </li>
+                            <li>
+                                consequatur similique, omnis culpa, repudiandae alias quaerat voluptatibus earum magnam 
+                            </li>
+                            <li>
+                                libero in voluptatum
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_bullet_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_bullet"
+            t-thumbnail="/theme_catpgov/static/img/snippet/bullet.png"/>
+        </xpath>
+    </template>
+<!-- end bullet snippet -->
+<!-- number snippet -->
+     <template id="snippet_catp_comp_number" name="Number Snippet">
+        <section class="snippet_catp_comp_number">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>
+                            Number List
+                        </h3>
+                        <ol>
+                            <li>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </li>
+                            <li>
+                                Consequuntur facilis voluptatem ipsum dolorum molestiae inventore reiciendis distinctio
+                            </li>
+                            <li>
+                                consequatur similique, omnis culpa, repudiandae alias quaerat voluptatibus earum magnam 
+                            </li>
+                            <li>
+                                libero in voluptatum
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_number_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_number"
+            t-thumbnail="/theme_catpgov/static/img/snippet/number.png"/>
+        </xpath>
+    </template>
+<!-- end number snippet -->
+
+<!-- Profile Picture snippet -->
+     <template id="snippet_catp_comp_profile_pic" name="Profile Picture Snippet">
+        <section class="snippet_catp_comp_profile_pic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="snippet-img-box">
+                            <img src="/theme_catpgov/static/img/people.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_profile_pic_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_profile_pic"
+            t-thumbnail="/theme_catpgov/static/img/snippet/picture.png"/>
+        </xpath>
+    </template>
+<!-- end Profile Picture snippet -->
+
+<!-- Download snippet -->
+     <template id="snippet_catp_comp_download" name="Download Snippet">
+        <section class="snippet_catp_comp_download">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="download-snippet">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-8 col-xs-12">
+                                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                                </div>
+                                <div class="col-md-2 col-sm-4 col-xs-12 btn-down-snip">
+                                    <a href="#">Download</a>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-md-10 col-sm-8 col-xs-12">
+                                    <p>Lorem Ipsum Dolor Sit Amet 2</p>
+                                </div>
+                                <div class="col-md-2 col-sm-4 col-xs-12 btn-down-snip">
+                                    <a href="#">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_download_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_download"
+            t-thumbnail="/theme_catpgov/static/img/snippet/download.png"/>
+        </xpath>
+    </template>
+<!-- end Download snippet -->
+
+<!-- Download Caption snippet -->
+     <template id="snippet_catp_comp_download_caption" name="Download Caption Snippet">
+        <section class="snippet_catp_comp_download_caption">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="download-snippet">
+                            <div class="col-xs-12 download-title">
+                                <h3>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                </h3>
+                                <p>Eum repudiandae obcaecati dolorem, explicabo necessitatibus aut. Iste tenetur nemo, suscipit, assumenda quod saepe facere fuga, totam molestias nam nostrum iusto repellendus.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-8 col-xs-12">
+                                    <p>Lorem Ipsum Dolor Sit Amet</p>
+                                </div>
+                                <div class="col-md-2 col-sm-4 col-xs-12 btn-down-snip">
+                                    <a href="#">Download</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-8 col-xs-12">
+                                    <p>Lorem Ipsum Dolor Sit Amet 2</p>
+                                </div>
+                                <div class="col-md-2 col-sm-4 col-xs-12 btn-down-snip">
+                                    <a href="#">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_comp_download_caption_icon" inherit_id="website.snippets" name="Place into Page">
+        <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="theme_catpgov.snippet_catp_comp_download_caption"
+            t-thumbnail="/theme_catpgov/static/img/snippet/download-caption.png"/>
+        </xpath>
+    </template>
+<!-- end Download Caption snippet -->
+
+
+</odoo>
