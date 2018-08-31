@@ -1,4 +1,4 @@
-@blue: #089ADF;
+@blue: #0052A4;
 @lightblue: #F4F9FD;
 @orange:#FF9900;
 @darkorange:#D59723;
@@ -17,83 +17,8 @@ h1,h2,h3,h4,h5,h6{
 .padd{
     height: 60px !important;
 }
-#catp-gheader{
-    background-color: @blue;
-    .navbar-fixed-top{
-        top: auto;
-        background-color: @blue;
-    }
-    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-        background-color: transparent;
-        color: @darkorange;
-    }
-    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-        background-color: transparent;
-    }
-    .navbar-default .navbar-nav > li > a{
-        color: @white;
-    }
-    ul#top_menu{
-        li:nth-last-child(1){
-            background-color: @orange;
-            border-radius: 50px;
-            padding: 0px 10px;
-            margin-top: 5px;
-            a{
-                padding: 10px 15px;
-                &:before{
-                    font-family: "FontAwesome"; font-weight: 900; content: "\f2c1";
-                    margin-right: 5px;
-                }
-            }
-        }
-        li:nth-last-child(1).dropdown{
-            background-color: @orange;
-            border-radius: 50px;
-            padding: 0px 10px;
-            margin-top: 5px;
-            li{
-                background-color: transparent;
-                padding:0px;
-                a{
-                    padding: 0px 15px;
-                    &:before{
-                        font-family: "FontAwesome"; font-weight: 900; content: none;
-                    }
-                }
-            }
-            a.dropdown-toggle{
-                padding: 10px 15px;
-                &:before{
-                    font-family: "FontAwesome"; font-weight: 900; content: "\f2c1";
-                    margin-right: 5px;
-                }
-            }
-        }
-        ul.dropdown-menu{
-            li{
-                background-color: transparent;
-                padding:0px;
-                a{
-                    padding: 0px 15px;
-                    &:before{
-                        font-family: "FontAwesome"; font-weight: 900; content: none;
-                    }
-                }
-            }
-            li:nth-last-child(1){
-                background-color: transparent;
-                border-radius: 0px;
-                padding: 0px;
-                margin-top: 0px;
-            }
-        }
-    }
-    #special-menu{
-        .navbar{
-            margin-bottom: 0px;
-        }
-    }
+#oe_main_menu_navbar{
+    z-index: 10000;
 }
 a{
     color: @orange;
@@ -103,6 +28,35 @@ a{
         color: @darkorange;
         text-decoration: none;
         transition: all .25s ease-out;
+    }
+}
+.nav-form{
+    padding: 8px 0px;
+    .input-group-addon{
+        border-color: transparent;
+        i{
+
+        }
+    }
+    input{
+        border-color: transparent;
+        background-color: transparent;
+        color: @white;
+    }
+    .form-group{
+        margin-bottom: 0px;
+    }
+    ::placeholder {
+        color:@white;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color:@white;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color:@white;
     }
 }
 
@@ -334,6 +288,7 @@ a{
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
+    margin-right: 5px;
 }
 
 .afa-twitter::before {
@@ -347,7 +302,154 @@ a{
 .afa-facebook::before {
     font-family: "FontAwesome"; font-weight: 900; content: "\f09a";
 }
+.afa-phone::before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f095";
+}
+.afa-envelope::before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f0e0";
+}
+.afa-marker::before {
+    font-family: "FontAwesome"; font-weight: 900; content: "\f041";
+}
 
+#catp-gheader{
+    background-color: @blue;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    .nav-main{
+        background-color: @blue;
+        border-color: transparent;
+        margin-bottom: 0px;
+    }
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+        background-color: transparent;
+        color: @darkorange;
+    }
+    .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav > li > a{
+        color: @white;
+    }
+    ul#top_menu{
+        li:nth-last-child(1){
+            background-color: @orange;
+            border-radius: 50px;
+            padding: 0px 10px;
+            margin-top: 5px;
+            a{
+                padding: 10px 15px;
+                &:before{
+                    font-family: "FontAwesome"; font-weight: 900; content: "\f2c1";
+                    margin-right: 5px;
+                }
+            }
+        }
+        li:nth-last-child(1).dropdown{
+            background-color: @orange;
+            border-radius: 50px;
+            padding: 0px 10px;
+            margin-top: 5px;
+            li{
+                background-color: transparent;
+                padding:0px;
+                a{
+                    padding: 0px 15px;
+                    &:before{
+                        font-family: "FontAwesome"; font-weight: 900; content: none;
+                    }
+                }
+            }
+            a.dropdown-toggle{
+                padding: 10px 15px;
+                &:before{
+                    font-family: "FontAwesome"; font-weight: 900; content: "\f2c1";
+                    margin-right: 5px;
+                }
+            }
+        }
+        ul.dropdown-menu{
+            li{
+                background-color: transparent;
+                padding:0px;
+                a{
+                    padding: 0px 15px;
+                    &:before{
+                        font-family: "FontAwesome"; font-weight: 900; content: none;
+                    }
+                }
+            }
+            li:nth-last-child(1){
+                background-color: transparent;
+                border-radius: 0px;
+                padding: 0px;
+                margin-top: 0px;
+            }
+        }
+    }
+    .navbar-default .navbar-toggle{
+        border-color: @white;
+        span{
+            background-color:@white;
+        }
+    }
+    #special-menu{
+        .navbar{
+            margin-bottom: 0px;
+            .navbar-nav{
+                .open{
+                    a{
+                        // background-color: transparent;
+                        &:hover,&:focus{
+                            // background-color: transparent;
+                        }
+                    }
+                    .dropdown-menu{
+                        z-index: 9999;
+                        li{
+                            a{
+                                background-color: transparent;
+                                color: @orange;
+                                &:hover,&:focus{
+                                    background-color: @lightblue;
+                                    color: @darkorange;
+                                }
+                            }
+                        }
+                    }
+                }
+                .active{
+                    a{
+                        background-color: transparent;
+                        color: @darkorange;
+                        &:hover,&:focus{
+                            background-color: transparent;
+                            color: @darkorange;
+                        }
+                    }
+                }
+                li{
+                    a{
+                        background-color: transparent;
+                        color: @white;
+                        &:hover,&:focus{
+                            background-color: transparent;
+                            color: @darkorange;
+                        }
+                    }
+                }
+            }
+            .navbar-toggle{
+                border-color: @white;
+                margin-right: 0px;
+                span{
+                    background-color:@white;
+                }
+            }
+        }
+    }
+}
 #catp-comp-footer{
     background-color: @lightblue;
     .container{
