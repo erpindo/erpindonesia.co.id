@@ -15,8 +15,8 @@
 
     <template id="snippet_catp_comp_test_icon" inherit_id="website.snippets" name="Place into bar">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_test"
-            t-thumbnail="/theme_catpgov/static/img/nc-thumb.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_test"
+            t-thumbnail="/erpi_theme_company/static/img/nc-thumb.png"/>
         </xpath>
     </template>
 
@@ -34,8 +34,8 @@
 
     <template id="snippet_catp_comp_divider_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_divider"
-            t-thumbnail="/theme_catpgov/static/img/snippet/divider.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_divider"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/divider.png"/>
         </xpath>
     </template>
 <!-- end divider snippet -->
@@ -57,8 +57,8 @@
 
     <template id="snippet_catp_comp_paragraph_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_paragraph"
-            t-thumbnail="/theme_catpgov/static/img/snippet/paragraph.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_paragraph"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/paragraph.png"/>
         </xpath>
     </template>
 <!-- end paragraph snippet -->
@@ -80,8 +80,8 @@
 
     <template id="snippet_catp_comp_page_title_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_page_title"
-            t-thumbnail="/theme_catpgov/static/img/snippet/title.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_page_title"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/title.png"/>
         </xpath>
     </template>
 <!-- end Page Title snippet -->
@@ -105,8 +105,8 @@
 
     <template id="snippet_catp_comp_page_sub_title_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_page_sub_title"
-            t-thumbnail="/theme_catpgov/static/img/snippet/sub-title.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_page_sub_title"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/sub-title.png"/>
         </xpath>
     </template>
 <!-- end Page Sub Title snippet -->
@@ -142,8 +142,8 @@
 
     <template id="snippet_catp_comp_bullet_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_bullet"
-            t-thumbnail="/theme_catpgov/static/img/snippet/bullet.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_bullet"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/bullet.png"/>
         </xpath>
     </template>
 <!-- end bullet snippet -->
@@ -178,8 +178,8 @@
 
     <template id="snippet_catp_comp_number_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_number"
-            t-thumbnail="/theme_catpgov/static/img/snippet/number.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_number"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/number.png"/>
         </xpath>
     </template>
 <!-- end number snippet -->
@@ -191,7 +191,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="snippet-img-box">
-                            <img src="/theme_catpgov/static/img/people.png" alt=""/>
+                            <img src="/erpi_theme_company/static/img/people.png" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -201,8 +201,8 @@
 
     <template id="snippet_catp_comp_profile_pic_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_profile_pic"
-            t-thumbnail="/theme_catpgov/static/img/snippet/picture.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_profile_pic"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/picture.png"/>
         </xpath>
     </template>
 <!-- end Profile Picture snippet -->
@@ -239,8 +239,8 @@
 
     <template id="snippet_catp_comp_download_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_download"
-            t-thumbnail="/theme_catpgov/static/img/snippet/download.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_download"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/download.png"/>
         </xpath>
     </template>
 <!-- end Download snippet -->
@@ -283,8 +283,8 @@
 
     <template id="snippet_catp_comp_download_caption_icon" inherit_id="website.snippets" name="Place into Page">
         <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
-            <t t-snippet="theme_catpgov.snippet_catp_comp_download_caption"
-            t-thumbnail="/theme_catpgov/static/img/snippet/download-caption.png"/>
+            <t t-snippet="erpi_theme_company.snippet_catp_comp_download_caption"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/download-caption.png"/>
         </xpath>
     </template>
 <!-- end Download Caption snippet -->

@@ -19,12 +19,21 @@
                     <nav class="navbar" role="navigation">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-special">
+                            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-special">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
-                            </button>
+                            </button> -->
+                                <form class="navbar-toggle form-inline nav-form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <a type="submit" class="input-group-addon"><i class="fa fa-search"></i></a>
+                                                <input type="text" class="form-control" id="search-nav" placeholder="Ketik Untuk Mencari."/>
+                                        </div>
+                                    </div>
+                                </form>
+                            
                         </div>
                     
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,64 +69,66 @@
             </div>
         </xpath>
         <!-- Add an element after the top menu  -->
-        <xpath expr="//div[@id='wrapwrap']/main" position="before">
+        <!-- <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
             <section class="padd"></section>
-        </xpath>
+        </xpath> -->
 
         <!-- Add an element after the top menu  -->
         <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
-            <section id="catp-comp-footer">
-                <div class="container">
-                    <div class="row-fluid">
-                        <div class="col-md-3 col-sm-12">
-                            <div class="cg-logo">
-                                <img src="/erpi_theme_company/static/img/logo.png" alt="Logo"/>
+            <footer>
+                <section id="catp-comp-footer">
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="cg-logo">
+                                    <img src="/erpi_theme_company/static/img/logo.png" alt="Logo" />
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="cg-info">
-                                <h2 class="text-uppercase">
-                                    Contact Info
-                                </h2>
-                                <ul class="cg-list">
-                                    <li>
-                                        <i class="fa fa-map-marker"></i>
-                                        <p>Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.</p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-phone"></i>
-                                        <p>024 764 95807</p>
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-envelope"></i>
-                                        <p>info@erpindonesia.co.id</p>
-                                    </li>   
-                                </ul>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="cg-info">
+                                    <h2 class="text-uppercase">
+                                        Contact Info
+                                    </h2>
+                                    <ul class="cg-list">
+                                        <li>
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            <p>024 764 95807</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i>
+                                            <p>info@erpindonesia.co.id</p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="cg-follow">
-                                <h2 class="text-uppercase">
-                                    Follow Us
-                                </h2>
-                                <p class="cg-socmed">
-                                    <a href="#" class="afa afa-twitter"></a>
-                                    <a href="#" class="afa afa-instagram"></a>
-                                    <a href="#" class="afa afa-facebook"></a>
-                                    <span>ERP Indonesia</span>
-                                </p>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="cg-follow">
+                                    <h2 class="text-uppercase">
+                                        Follow Us
+                                    </h2>
+                                    <p class="cg-socmed">
+                                        <a href="#" class="afa afa-twitter"></a>
+                                        <a href="#" class="afa afa-instagram"></a>
+                                        <a href="#" class="afa afa-facebook"></a>
+                                        <span>ERP Indonesia</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="container-fluid copyright">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <p class="text-center">Copyright <i class="fa fa-copyright"></i> 2018, All Rights Reserved.</p>
+                    <div class="container-fluid copyright">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="text-center">Copyright <i class="fa fa-copyright"></i> 2018, All Rights Reserved.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </footer>
         </xpath>
     </template>
     

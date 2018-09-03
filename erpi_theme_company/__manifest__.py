@@ -5,7 +5,7 @@
     'name': 'Company Profile Blue Theme',
     'summary': 'Odoo Theme for ERPI Company Profile',
     'description': 'This theme install as full theme, not module. -catp-',
-    'category': '',
+    'category': 'Theme',
     'sequence': 900,
     'version': '1.0',
     'depends': ['website'],
