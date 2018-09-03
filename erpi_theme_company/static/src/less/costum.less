@@ -624,7 +624,7 @@ a{
     .services{
         padding: @padsec 0px;
         .item{
-            min-height: 300px;
+            min-height: 250px;
             .img-box{
                 height: 100px;
                 width: 100%;
@@ -817,9 +817,22 @@ a{
             .gradient-nav();
         }
     }
+    .services-sec{    
+        .services{
+            .item{
+                min-height: 200px;
+            }
+        }
+    }
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
-    
+    .services-sec{
+        .services{
+            .item{
+                min-height: 300px;
+            }
+        }
+    }
 }
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
 }
