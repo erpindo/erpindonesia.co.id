@@ -12,4 +12,8 @@ class erpiCompany(http.Controller):
     @http.route('/about', type='http',auth='public',website=True,page=True)
     def about(self, **kw):
         return http.request.render('erpi_theme_company.catp_comp_about')
+    
+    @http.route('/services', type='http',auth='public',website=True,page=True)
+    def services(self, **kw):
+        return http.request.render('erpi_theme_company.catp_comp_services')
 

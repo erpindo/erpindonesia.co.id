@@ -7,6 +7,7 @@
 @white: #ffffff;
 @midblue:#089ADF;
 @padsec: 40px;
+@line:#4A4A4A;
 
 .gradient-nav{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a3e5+0,0063b2+100 */
@@ -911,6 +912,112 @@ a{
         }
     }
 }
+#service-page{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        to right,
+      rgba(0,82,164,.8), 
+      rgba(0,82,164,.9)
+    ),
+    /* bottom, image */
+    url('/erpi_theme_company/static/img/programming.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+.ait{
+    padding: @padsec 0px;
+    h3,p{
+        margin-top: 0px;
+        margin-bottom: @padsec/2;
+    }
+    .img-box{
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        img{
+            object-fit: contain;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.get-touch{
+    padding: @padsec 0px;
+    padding-top: @padsec*2;
+    background-color: @lightblue;
+    h3,p{
+        margin-top: 0px;
+        margin-bottom: @padsec/2;
+    }
+    .btn{
+        margin-top: @padsec/2;
+        margin-bottom: @padsec;
+        a{
+
+        }
+    }
+    .socmed{
+        .afa{
+            font-size: 30px;
+            margin: 0px 10px;
+        }
+    }
+    .name{
+        margin-bottom: 0px;
+        margin-top: @padsec/2;
+    }
+}
+#feat-service{
+    padding-bottom: 0px;
+}
+div{
+    // border:1px solid red;
+}
+#service-cont{
+    padding: @padsec 0px;
+    overflow: hidden;
+    .item{
+        text-align: center;
+        padding: @padsec/2 @padsec;
+        .img-box{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+            top: ~"calc(50% - 30px)";
+            img{
+                object-fit: contain;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .img-right{
+            right: -30px;
+        }
+        .img-left{
+            left: -30px;
+        }
+        h3{
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+        P{
+            margin: 0px;
+        }
+    }
+    .line-service{
+        width: 2px;
+        height: 50px;
+        margin: 0 auto;
+        background-color: @line;
+    }
+    .row{
+        opacity: 0;
+    }
+}
 // end main
 
 
@@ -936,6 +1043,14 @@ a{
             }
         }
     }
+    #service-cont{
+        .line-service{
+            width: 2px;
+            height: 30px;
+            margin: 0 auto;
+            background-color: @line;
+        }
+    }
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
     .services-sec{
@@ -943,6 +1058,14 @@ a{
             .item{
                 min-height: 300px;
             }
+        }
+    }
+    #service-cont{
+        .line-service{
+            width: 2px;
+            height: 30px;
+            margin: 0 auto;
+            background-color: @line;
         }
     }
 }

@@ -60,7 +60,7 @@
                         <div class="row featured">
                             <div class="col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/consulting.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/consulting.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/research.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/research.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -86,7 +86,7 @@
                             </div>
                             <div class="col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/services.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/services.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -118,7 +118,7 @@
                         <div class="row services">
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/dashboard.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/dashboard.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -131,7 +131,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/purchase.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/purchase.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -144,7 +144,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/accounting.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/accounting.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -157,7 +157,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/sales.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/sales.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -170,7 +170,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/human.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/human.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -183,7 +183,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/payroll.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/payroll.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -196,7 +196,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">
@@ -209,7 +209,7 @@
                             </div>
                             <div class="col-md-3 col-sm-4 item">
                                 <div class="img-box">
-                                    <img src="/erpi_theme_company/static/img/inventory.png" alt="Logo" />
+                                    <img src="/erpi_theme_company/static/img/inventory.png" alt="Thumbnail" />
                                 </div>
                                 <div class="desc text-center">
                                     <h3 class="text-uppercase">

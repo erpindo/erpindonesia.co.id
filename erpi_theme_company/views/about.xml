@@ -2,7 +2,7 @@
 <odoo>
 
     <!-- === Costum Page === -->
-    <template id="catp_comp_about" name="About Us Page" >
+    <template id="catp_comp_about" name="About Us" >
         <t t-call="website.layout">
             <div id="wrap">
                 <section class="page-header">
@@ -159,35 +159,35 @@
                         </div>
                         <div class="row feat-content">
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/team.jpg" alt="Featured"/>
+                                <img src="/erpi_theme_company/static/img/feat-1.png" alt="Featured"/>
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/action.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-2.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/application.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-3.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/programming.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-4.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/action.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-5.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/team.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-6.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/programming.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-7.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                             <div class="col-lg-3 col-sm-4  item">
-                                <img src="/erpi_theme_company/static/img/application.jpg" alt="Featured" />
+                                <img src="/erpi_theme_company/static/img/feat-8.png" alt="Featured" />
                                 <div class="img-overlay"></div>
                             </div>
                         </div>
