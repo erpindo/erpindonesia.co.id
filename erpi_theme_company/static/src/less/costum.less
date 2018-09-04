@@ -16,15 +16,19 @@
     background: linear-gradient(to right, rgba(0,163,229,1) 0%,rgba(0,99,178,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a3e5', endColorstr='#0063b2',GradientType=1 ); /* IE6-9 */    
 }
+.text-blue{
+    color: @blue;
+}
 
 // default state
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: @white;
     color: @textmain;
 }
 h1,h2,h3,h4,h5,h6{
     color: @blue;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .padd{
     height: 120px !important;
@@ -794,6 +798,114 @@ a{
                             transition: all .5s ease-out;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+.page-header{
+    background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+        to right,
+      rgba(0,82,164,.8), 
+      rgba(0,82,164,.9)
+    ),
+    /* bottom, image */
+    url('/erpi_theme_company/static/img/team.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    .breadcumb{
+        margin-top: @padsec;
+        list-style: none;
+        margin-top: 10px;
+        li{
+            display: inline-block;
+            padding: 6px 2px;
+            color: @white;
+            a{
+                color: @white;
+                &:hover,&:focus{
+                    color: @orange;
+                }
+            }
+        }
+    }
+    h1{
+        color: @white;
+        margin-bottom: 50px;
+    }
+}
+.we-do{
+    padding: @padsec 0px;
+    h3{
+        margin-top: 0px;
+        margin-bottom: @padsec/2;
+    }
+    .img-box{
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        img{
+            object-fit: contain;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.how{
+    padding: @padsec 0px;
+    h3{
+        margin-top: 0px;
+        margin-bottom: @padsec/2;
+    }
+    .img-box{
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+        img{
+            object-fit: contain;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.feat{
+    padding: @padsec 0px;
+    h3,p{
+        margin-top: 0px;
+        margin-bottom: @padsec/2;
+    }
+    .feat-content{
+        .item{
+            padding: 0px;
+            overflow: hidden;
+            height: 300px;
+            img{
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+            }
+            .img-overlay{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0px;
+                right: 0px;
+                background: rgba(0,82,164,.5);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.5s ease-in;
+            }
+            &:hover,&:focus{
+                .img-overlay{
+                    opacity: 1;
+                    visibility: visible;
+                    transition: all 0.5s ease-out;
                 }
             }
         }

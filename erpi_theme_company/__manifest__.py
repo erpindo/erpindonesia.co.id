@@ -18,6 +18,7 @@
         'views/snippets.xml',
         'views/snip_options.xml',
         'views/home.xml',
+        'views/about.xml',
     ],
     'images': [
         'static/description/icon.jpg'

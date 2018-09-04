@@ -9,3 +9,7 @@ class erpiCompany(http.Controller):
     def index(self, **kw):
         return http.request.render('erpi_theme_company.catp_comp_home')
 
+    @http.route('/about', type='http',auth='public',website=True,page=True)
+    def about(self, **kw):
+        return http.request.render('erpi_theme_company.catp_comp_about')
+
