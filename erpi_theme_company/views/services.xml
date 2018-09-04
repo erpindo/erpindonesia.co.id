@@ -64,15 +64,15 @@
                     <div class="container" id="service-cont">
                         <div class="row" id="serv-1">
                             <div class="col-md-6 item">
+                                <div class="img-box img-right">
+                                    <img src="/erpi_theme_company/static/img/dashboard.png" alt="Thumbnail" />
+                                </div>
                                 <h3>
                                     Dashboard
                                 </h3>
                                 <p>
                                     Our Core managemen module with Live Connect
                                 </p>
-                                <div class="img-box img-right">
-                                    <img src="/erpi_theme_company/static/img/dashboard.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
                         <div class="row" id="serv-2">
@@ -82,15 +82,15 @@
                         </div>
                         <div class="row" id="serv-3">
                             <div class="col-md-6 col-md-offset-6 item">
+                                <div class="img-box img-left">
+                                    <img src="/erpi_theme_company/static/img/purchase.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Purchase
                                 </h3>
                                 <p>
                                     Quotations, Manage Orders, Manage Invoicing, Handle Product, Analyze, Multi Company Rules
                                 </p>
-                                <div class="img-box img-left">
-                                    <img src="/erpi_theme_company/static/img/purchase.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
 
@@ -102,15 +102,15 @@
                         
                         <div class="row" id="serv-5">
                             <div class="col-md-6 item">
+                                <div class="img-box img-right">
+                                    <img src="/erpi_theme_company/static/img/accounting.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Accounting
                                 </h3>
                                 <p>
                                     Accounting Management, Billing &amp; Invoicing, Cash Management
                                 </p>
-                                <div class="img-box img-right">
-                                    <img src="/erpi_theme_company/static/img/accounting.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
                         <div class="row" id="serv-6">
@@ -120,15 +120,15 @@
                         </div>
                         <div class="row" id="serv-7">
                             <div class="col-md-6 col-md-offset-6 item">
+                                <div class="img-box img-left">
+                                    <img src="/erpi_theme_company/static/img/sales.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Sales
                                 </h3>
                                 <p>
                                     Quotation Management, Invoice Management
                                 </p>
-                                <div class="img-box img-left">
-                                    <img src="/erpi_theme_company/static/img/sales.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
 
@@ -140,15 +140,15 @@
 
                         <div class="row" id="serv-9">
                             <div class="col-md-6 item">
+                                <div class="img-box img-right">
+                                    <img src="/erpi_theme_company/static/img/human.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Human Resource
                                 </h3>
                                 <p>
                                     General Explanation, Reference Framework, Costumizing, Technical Specification
                                 </p>
-                                <div class="img-box img-right">
-                                    <img src="/erpi_theme_company/static/img/human.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
                         <div class="row" id="serv-10">
@@ -158,15 +158,15 @@
                         </div>
                         <div class="row" id="serv-11">
                             <div class="col-md-6 col-md-offset-6 item">
+                                <div class="img-box img-left">
+                                    <img src="/erpi_theme_company/static/img/payroll.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Payroll
                                 </h3>
                                 <p>
                                     Employee Management, Organization Structure, Attendance Record and Control
                                 </p>
-                                <div class="img-box img-left">
-                                    <img src="/erpi_theme_company/static/img/payroll.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
 
@@ -178,15 +178,15 @@
 
                         <div class="row" id="serv-13">
                             <div class="col-md-6 item">
+                                <div class="img-box img-right">
+                                    <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     E-Commerce
                                 </h3>
                                 <p>
                                     Product Information Management, Website Building, Product Gallery, Online order
                                 </p>
-                                <div class="img-box img-right">
-                                    <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
                         <div class="row" id="serv-14">
@@ -196,15 +196,15 @@
                         </div>
                         <div class="row" id="serv-15">
                             <div class="col-md-6 col-md-offset-6 item">
+                                <div class="img-box img-left">
+                                    <img src="/erpi_theme_company/static/img/inventory.png" alt="Thumbnail" />
+                                </div>
                                 <h3 class="text-uppercase">
                                     Inventory
                                 </h3>
                                 <p>
                                     Basic Operations, Advanced Routing, Productivity, Replenishments, Traceability, Products, Cost, Report
                                 </p>
-                                <div class="img-box img-left">
-                                    <img src="/erpi_theme_company/static/img/inventory.png" alt="Thumbnail" />
-                                </div>
                             </div>
                         </div>
                     </div>

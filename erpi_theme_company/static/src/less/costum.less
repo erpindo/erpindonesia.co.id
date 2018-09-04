@@ -353,7 +353,7 @@ a{
     .nav-main{
         background-color: transparent;
         border-color: transparent;
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
         background-color: transparent;
@@ -981,12 +981,12 @@ div{
     overflow: hidden;
     .item{
         text-align: center;
-        padding: @padsec/2 @padsec;
+        padding: 60px 100px;
         .img-box{
             position: absolute;
-            height: 60px;
-            width: 60px;
-            top: ~"calc(50% - 30px)";
+            height: 100px;
+            width: 100px;
+            top: ~"calc(50% - 50px)";
             img{
                 object-fit: contain;
                 object-position: center;
@@ -995,10 +995,10 @@ div{
             }
         }
         .img-right{
-            right: -30px;
+            right: -50px;
         }
         .img-left{
-            left: -30px;
+            left: -50px;
         }
         h3{
             margin: 0px;
@@ -1050,6 +1050,15 @@ div{
             margin: 0 auto;
             background-color: @line;
         }
+        .item{
+            .img-box{
+                position: relative;
+                margin: 0 auto;
+                left: auto;
+                right: auto;
+                margin-bottom: 20px;
+            }
+        }
     }
 }
 @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
@@ -1066,6 +1075,15 @@ div{
             height: 30px;
             margin: 0 auto;
             background-color: @line;
+        }
+        .item{
+            .img-box{
+                position: relative;
+                margin: 0 auto;
+                left: auto;
+                right: auto;
+                margin-bottom: 20px;
+            }
         }
     }
 }

@@ -2,7 +2,7 @@
 <odoo>
 
     <!-- Customize header  -->
-    <template id="catp-comp-header" inherit_id="website.layout" name="Company Header">
+    <template id="catp_comp_header" inherit_id="website.layout" name="Company Header">
         
         <!-- Assign an id  -->
         <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
