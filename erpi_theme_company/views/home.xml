@@ -24,6 +24,7 @@
                         </div>
                     </div>
                 </section>
+
                 <section class="about-sec">
                     <div class="container">
                         <div class="row">
@@ -362,7 +363,21 @@
                             </div>
                         </div>
                         <div class="row news-list">
-                            <div class="col-sm-4 item">
+                            <t t-foreach="posts" t-as="post">
+                                <div class="col-sm-4 item">
+                                    <a t-attf-href="#{blog_url('', ['blog', 'post'], blog=post.blog_id, post=post)}">
+                                        <div class="img-box" t-attf-style="background-image: #{json.loads(post.cover_properties).get('background-image')};" t-log="post.cover_properties">
+                                        </div>
+                                        <div class="desc">
+                                            <h3 class="text-uppercase" t-field="post.name">
+                                                Untitled.
+                                            </h3>
+                                            <p t-field="post.post_date">Posted on October 1, 2018</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </t>
+                            <!-- <div class="col-sm-4 item">
                                 <a href="#">
                                     <div class="img-box">
                                         <img src="/erpi_theme_company/static/img/application.jpg" alt="Thumbnail" />
@@ -400,7 +415,7 @@
                                         <p>Posted on October 16, 2018</p>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-xs-12 text-center">

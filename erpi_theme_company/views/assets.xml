@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <template id="catp-comp-costum-style" name="Company Costum Style" inherit_id="website.assets_frontend">
-        <xpath expr="link[last()]" position="after">
+        <xpath expr="//link[last()]" position="after">
             <link href="/erpi_theme_company/static/src/less/costum.less" rel="stylesheet" type="text/less"/>
             <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,700,900" rel="stylesheet"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
         </xpath>
     </template>
     <template id="catp-comp-costum-js" name="Company Costum js" inherit_id="website.assets_frontend">
-        <xpath expr="link[last()]" position="after">
+        <xpath expr="//script[last()]" position="after">
             <script type="text/javascript" src="/erpi_theme_company/static/src/js/costum.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
         </xpath>
