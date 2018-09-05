@@ -8,7 +8,7 @@
         <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
             <attribute name="id">catp-gheader</attribute>
         </xpath>
-        <xpath expr="//div[@id='wrapwrap']/header//div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+        <xpath expr="//header[@id='catp-gheader']/div[hasclass('navbar-static-top')]" position="attributes">
             <attribute name="class">navbar navbar-default nav-main</attribute>
         </xpath>
 
