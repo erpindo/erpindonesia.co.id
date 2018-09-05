@@ -53,7 +53,7 @@ a{
         border-color: transparent;
         background-color: transparent;
         i{
-
+            color: @white;
         }
     }
     input{
@@ -422,9 +422,12 @@ a{
         }
     }
     .navbar-default .navbar-toggle{
-        border-color: @white;
+        border-color: transparent;
         span{
             background-color:@white;
+        }
+        &:hover,&:focus{
+            background-color: transparent;
         }
     }
     #special-menu{
