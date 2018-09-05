@@ -1,13 +1,16 @@
 $(document).ready(function () {
     var getHeader = $("#catp-gheader");
     var mainWrap = $("#wrap");
+    var loginWrap = $(".oe_website_login_container");
 
-    mainWrap.css('margin-top', getHeader.height());
+    mainWrap.css('padding-top', getHeader.height());
+    loginWrap.css('padding-top', getHeader.height());
 
 
     $(window).resize(function () {
 
-        mainWrap.css('margin-top', getHeader.height());        
+        mainWrap.css('padding-top', getHeader.height());        
+        loginWrap.css('padding-top', getHeader.height());        
 
     });
 

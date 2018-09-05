@@ -5,7 +5,7 @@
     <template id="catp_comp_about" name="About Us" >
         <t t-call="website.layout">
             <div id="wrap">
-                <section class="page-header">
+                <section class="catp-page-header">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
