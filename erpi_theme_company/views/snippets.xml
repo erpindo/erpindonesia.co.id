@@ -322,7 +322,7 @@
     </template>
 <!-- end Page Header snippet -->
 
-<!-- Page Header snippet -->
+<!-- Get In Touch snippet -->
      <template id="snippet_catp_get_touch" name="Get In Touch Snippet">
         <section class="snippet_catp_get_touch get-touch">
             <div class="container">
@@ -357,6 +357,268 @@
             t-thumbnail="/erpi_theme_company/static/img/snippet/gettouch.png"/>
         </xpath>
     </template>
-<!-- end Page Header snippet -->
+<!-- end Get In Touch snippet -->
+
+<!-- Address snippet -->
+     <template id="snippet_catp_contact_address" name="Contact Address Snippet">
+        <section class="snippet_catp_contact_address contact-address">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-10 col-md-offset-1 col-xs-12">
+                        <h3 class="text-center">
+                            WE WANT TO HELP YOU GET THE BEST OUT OF YOUR PROJECT
+                        </h3>
+                        <p>
+                            If you have any questions, or would like to talk to us about what we can do for your business, please feel free to contact us.
+                        </p>
+                        <p>
+                            We look forward to hearing from you…
+                        </p>
+                    </div>
+                </div>
+                <div class="row icon">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="col-xs-2">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <p>
+                                024 764 95807
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="col-xs-2">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <p>
+                                info@erpindonesia.co.id
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="col-xs-2">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            <p>
+                                Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_contact_address_icon" inherit_id="website.snippets" name="Icon Snippet Contact Address">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_company.snippet_catp_contact_address"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/contactaddress.png"/>
+        </xpath>
+    </template>
+<!-- end Address snippet -->
+
+<!-- We Do Something snippet -->
+     <template id="snippet_catp_we_do" name="We Do Something Snippet">
+        <section class="snippet_catp_we_do can-do">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <h1 class="text-uppercase">
+                            What We can do
+                        </h1>
+                        <p>
+                            ERP INDONESIA is an development agency with great experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="row featured">
+                    <div class="col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/consulting.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Bussiness Consultant
+                            </h3>
+                            <p>
+                                We help you understand the market and its behavior, the competition, and unleash your unique potentials. We help you boosting conversion rates and maximizing ROI.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/research.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Design &amp; Development
+                            </h3>
+                            <p>
+                                We put a focal point on building strong core for e-commerce solutions through design and right technologies for each client with our magento-certified developers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/services.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Support &amp; Maintance
+                            </h3>
+                            <p>
+                                Our own dedicated quality support and maintenance at your service. Collaborating with third-party vendors, we offer managed services for hosting and server.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <a href="#" class="btn btn-orange text-uppercase">Lihat Semua</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_we_do_icon" inherit_id="website.snippets" name="Icon Snippet We Do Something">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_company.snippet_catp_we_do"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/wedo.png"/>
+        </xpath>
+    </template>
+<!-- end We Do Something snippet -->
+
+<!-- Services Section snippet -->
+     <template id="snippet_catp_services" name="Services Section Snippet">
+        <section class="snippet_catp_services services-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="text-uppercase text-center">
+                            Our Services
+                        </h1>
+                    </div>
+                </div>
+                <div class="row services">
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/dashboard.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Dashboard
+                            </h3>
+                            <p>
+                                Our Core managemen module with Live Connect
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/purchase.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Purchase
+                            </h3>
+                            <p>
+                                Quotations, Manage Orders, Manage Invoicing, Handle Product, Analyze, Multi Company Rules
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/accounting.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Accounting
+                            </h3>
+                            <p>
+                                Accounting Management, Billing &amp; Invoicing, Cash Management
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/sales.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Sales
+                            </h3>
+                            <p>
+                                Quotation Management, Invoice Management
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/human.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Human Resource
+                            </h3>
+                            <p>
+                                General Explanation, Reference Framework, Costumizing, Technical Specification
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/payroll.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Payroll
+                            </h3>
+                            <p>
+                                Employee Management, Organization Structure, Attendance Record and Control
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                E-Commerce
+                            </h3>
+                            <p>
+                                Product Information Management, Website Building, Product Gallery, Online order
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 item">
+                        <div class="img-box">
+                            <img src="/erpi_theme_company/static/img/inventory.png" alt="Thumbnail" />
+                        </div>
+                        <div class="desc text-center">
+                            <h3 class="text-uppercase">
+                                Inventory
+                            </h3>
+                            <p>
+                                Basic Operations, Advanced Routing, Productivity, Replenishments, Traceability, Products, Cost, Report
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_services_icon" inherit_id="website.snippets" name="Icon Services Section">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_company.snippet_catp_services"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/services.png"/>
+        </xpath>
+    </template>
+<!-- end Services Section snippet -->
 
 </odoo>

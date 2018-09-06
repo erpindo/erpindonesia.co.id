@@ -1037,9 +1037,6 @@ a{
 #feat-service{
     padding-bottom: 0px;
 }
-div{
-    // border:1px solid red;
-}
 #service-cont{
     padding: @padsec 0px;
     overflow: hidden;
@@ -1080,6 +1077,27 @@ div{
     }
     .row{
         opacity: 0;
+    }
+}
+.contact-address{
+    padding: @padsec 0px;
+    h3{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    p{
+
+    }
+    i{
+        color: @orange;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .icon{
+        margin-top:20px;
+        p{
+            margin-bottom:20px;
+        }
     }
 }
 // end main
@@ -1151,8 +1169,20 @@ div{
         }
     }
 }
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { 
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    .contact-address{
+        .icon{
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+    } 
 }
 @media (min-width: @screen-lg-min) { 
+    .contact-address{
+        .icon{
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+    } 
 }
 
