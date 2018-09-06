@@ -290,4 +290,73 @@
 <!-- end Download Caption snippet -->
 
 
+<!-- Page Header snippet -->
+     <template id="snippet_catp_page_header" name="Page Header Snippet">
+        <section class="snippet_catp_page_header catp-page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="breadcumb">
+                            <li><a href="/">Home</a></li>
+                            <li>/</li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="text-center text-uppercase">
+                            About Us
+                        </h1>   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_page_header_icon" inherit_id="website.snippets" name="Icon Snippet Page Header">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_company.snippet_catp_page_header"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/page-header.png"/>
+        </xpath>
+    </template>
+<!-- end Page Header snippet -->
+
+<!-- Page Header snippet -->
+     <template id="snippet_catp_get_touch" name="Get In Touch Snippet">
+        <section class="snippet_catp_get_touch get-touch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <h3>
+                            GET IN TOUCH
+                        </h3>
+                        <p>
+                            WE WANT TO HELP YOU GET THE BEST OUT OF YOUR PROJECT
+                        </p>
+                        <a href="/contactus" class="btn btn-orange text-uppercase">
+                            Contact Us
+                        </a>
+                        <div class="socmed">
+                            <a href="#" class="afa afa-twitter"></a>
+                            <a href="#" class="afa afa-instagram"></a>
+                            <a href="#" class="afa afa-facebook"></a>
+                        </div>
+                        <p class="name">
+                            ERP Indonesia
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_get_touch_icon" inherit_id="website.snippets" name="Icon Snippet Get In Touch">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_company.snippet_catp_get_touch"
+            t-thumbnail="/erpi_theme_company/static/img/snippet/gettouch.png"/>
+        </xpath>
+    </template>
+<!-- end Page Header snippet -->
+
 </odoo>

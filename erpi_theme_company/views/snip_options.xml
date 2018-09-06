@@ -26,6 +26,18 @@
                     </ul>
                 </li>
             </div>
+            <div data-selector=".snippet_catp_page_header"> <!-- Options group -->
+                <li class="dropdown-submenu">
+                    <a href="#"><i class="fa fa-bars"></i> catp Comp Option</a>
+                    <ul class="dropdown-menu"> <!-- Options list -->
+                        <li data-select-class="opt_img-action"><a>Background Action</a></li>
+                        <li data-select-class="opt_img-application"><a>Background Application</a></li>
+                        <li data-select-class="opt_img-programming"><a>Background Programming</a></li>
+                        <li data-select-class="opt_img-team"><a>Background Team</a></li>
+                        <li data-select-class="opt_hide"><a>hide</a></li>
+                    </ul>
+                </li>
+            </div>
         </xpath>
     </template>
 
