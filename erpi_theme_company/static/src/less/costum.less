@@ -8,6 +8,8 @@
 @midblue:#089ADF;
 @padsec: 40px;
 @line:#4A4A4A;
+@form:#F7F7F7;
+@formline:#D3D3D3;
 
 .gradient-nav{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a3e5+0,0063b2+100 */
@@ -16,6 +18,7 @@
     background: -webkit-linear-gradient(left, rgba(0,163,229,1) 0%,rgba(0,99,178,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(0,163,229,1) 0%,rgba(0,99,178,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a3e5', endColorstr='#0063b2',GradientType=1 ); /* IE6-9 */    
+    transition: all .25s ease-in-out;
 }
 .text-blue{
     color: @blue;
@@ -90,6 +93,16 @@ a{
         background-color: @darkorange;
         color: @white;
     }
+}
+.nod-success-message{
+    color: green;
+    display: block;
+    padding: 5px 0px;
+}
+.nod-error-message{
+    color: darkred;
+    display: block;
+    padding: 5px 0px;
 }
 // snippets
 .snippet_catp_comp_divider{
@@ -642,6 +655,7 @@ a{
     .img-box{
         height: 100px;
         width: 100%;
+        margin-bottom: 20px;
         img{
             height: 100%;
             width: 100%;
@@ -1097,6 +1111,19 @@ a{
         margin-top:20px;
         p{
             margin-bottom:20px;
+        }
+    }
+}
+#catp-contact-form{
+    padding: 0px 8%;
+    .form-group{
+        margin-left: 0;
+        margin-right: 0;
+        .form-control{
+            border-radius: 0px;
+            background-color: @form;
+            border-color: @formline;
+            color: @textmain;
         }
     }
 }

@@ -21,12 +21,13 @@ document.addEventListener('DOMContentLoaded', function (e) {
         nav.addClass('navbar-transparent');
         
         $(window).scroll(function () {
-            var top = 200;
+            var top = 30;
             if ($(window).scrollTop() >= top) {
                 nav.removeClass('navbar-transparent');
+                nav.css('transition', 'background .25s ease-out');
             } else {
                 nav.addClass('navbar-transparent');
-                // nav.css('transition', 'background 1s ease-out');
+                nav.css('transition', 'background .25s ease-out');
             }
         });
     }
@@ -79,4 +80,41 @@ $(document).ready(function(){
         $('#serv-15').addClass('animated fadeIn');
     }, { offset: '50%' });
  
+});
+
+$(document).ready(function () {
+    var cform = nod();
+
+    // We disable the submit button if there are errors.
+    cform.configure({
+        submit: $('#cform-submit'),
+        disableSubmit: true,
+    });
+
+    cform.add([{
+        selector: '#cf-name',
+        validate: 'presence',
+        errorMessage: 'Don\'t leave empty.'
+    }, {
+        selector: '#cf-email',
+        validate: 'email',
+        errorMessage: 'Thats Not Valid Email.'
+    }, {
+        selector: '#cf-phone',
+        validate: 'presence',
+        errorMessage: 'Don\'t leave empty.'
+    }, {
+        selector: '#cf-how',
+        validate: 'presence',
+        errorMessage: 'Don\'t leave empty.'    
+    }, {
+        selector: '#cf-text',
+        validate: 'min-length:100',
+        errorMessage: 'Please give us more detail.' 
+    }, {
+        selector: '#cf-check',
+        validate: 'checked',
+        errorMessage: 'You must agree to our terms and canditions.'   
+    }]);
+
 });

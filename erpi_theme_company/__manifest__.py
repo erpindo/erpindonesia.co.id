@@ -20,6 +20,7 @@
         'views/home.xml',
         'views/about.xml',
         'views/services.xml',
+        'views/replace.xml',
     ],
     'images': [
         'static/description/icon.jpg'
