@@ -8,7 +8,7 @@
     'category': 'Theme',
     'sequence': 900,
     'version': '1.0',
-    'depends': ['website'],
+    'depends': ['website','website_crm'],
     'version':'1.0',
     'author':'catp',
     'data': [
