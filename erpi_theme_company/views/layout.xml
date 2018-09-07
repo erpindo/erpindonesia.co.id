@@ -104,11 +104,11 @@
         <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
             <footer>
                 <section id="catp-comp-footer">
-                    <div class="container">
+                    <div class="container"  itemscope="itemscope" itemtype="http://schema.org/Organization">
                         <div class="row-fluid">
                             <div class="col-md-3 col-sm-12">
                                 <div class="cg-logo">
-                                    <img src="/erpi_theme_company/static/img/logo.png" alt="Logo" />
+                                    <img itemprop="logo" src="/erpi_theme_company/static/img/logo.png" alt="Logo" />
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
@@ -116,18 +116,18 @@
                                     <h2 class="text-uppercase">
                                         Contact Info
                                     </h2>
-                                    <ul class="cg-list">
+                                    <ul class="cg-list" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
                                         <li>
                                             <i class="fa fa-map-marker"></i>
-                                            <p>Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.</p>
+                                            <p itemprop="streetAddress">Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.</p>
                                         </li>
                                         <li>
                                             <i class="fa fa-phone"></i>
-                                            <p>024 764 95807</p>
+                                            <p itemprop="telephone">024 764 95807</p>
                                         </li>
                                         <li>
                                             <i class="fa fa-envelope"></i>
-                                            <p>info@erpindonesia.co.id</p>
+                                            <p itemprop="email">info@erpindonesia.co.id</p>
                                         </li>
                                     </ul>
                                 </div>
@@ -141,7 +141,7 @@
                                         <a href="#" class="afa afa-twitter"></a>
                                         <a href="#" class="afa afa-instagram"></a>
                                         <a href="#" class="afa afa-facebook"></a>
-                                        <span>ERP Indonesia</span>
+                                        <span itemprop="name">ERP Indonesia</span>
                                     </p>
                                 </div>
                             </div>
