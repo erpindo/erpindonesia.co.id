@@ -20,7 +20,6 @@
         <xpath expr="//script[last()]" position="after">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/nod/2.0.12/nod.min.js"></script>
-            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/jquery.mask.min.js"></script>
         </xpath>
     </template>
     <!-- <template id="catp-comp-costum-head" name="Company Costum head" inherit_id="web.layout">
