@@ -114,6 +114,10 @@ $(document).ready(function () {
         validate: 'presence',
         errorMessage: 'Don\'t leave empty.'    
     }, {
+        selector: '#cf-company',
+        validate: 'presence',
+        errorMessage: 'Don\'t leave empty.'
+    }, {
         selector: '#cf-text',
         validate: 'min-length:100',
         errorMessage: 'Please give us more detail.' 

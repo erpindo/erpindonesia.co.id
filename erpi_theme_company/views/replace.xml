@@ -37,6 +37,14 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group form-field o_website_form_required">
+                                            <input id="cf-company" placeholder="Company *" type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group form-field">
                                             <input id="cf-how" placeholder="How Did You Find Us? *" type="text" class="form-control o_website_form_input" name="name" t-att-value="request.params.get('name', '')" />
                                         </div>
                                     </div>
