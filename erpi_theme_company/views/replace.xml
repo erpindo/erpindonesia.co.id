@@ -105,4 +105,22 @@
                 </div>
 			</xpath>
 		</template>
+
+
+        <template id="catp_comp_slides" inherit_id="website_slides.channels" name="catp Slides Company">
+        
+            <!-- Assign an id  -->
+            <xpath expr="//div[hasclass('container')]" position="attributes">
+                <attribute name="id">catp-wrap-spc</attribute>
+            </xpath>
+
+        </template>
+        <template id="catp_comp_slides_detail" inherit_id="website_slides.slide_detail_view" name="catp Slides Detail Company">
+        
+            <!-- Assign an id  -->
+            <xpath expr="//div[hasclass('container')]" position="attributes">
+                <attribute name="id">catp-wrap-spc</attribute>
+            </xpath>
+
+        </template>
 </odoo>

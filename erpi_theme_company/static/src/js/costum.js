@@ -1,16 +1,22 @@
 $(document).ready(function () {
     var getHeader = $("#catp-gheader");
     var mainWrap = $("#wrap");
+    var mainClassWrap = $(".wrap");
     var loginWrap = $(".oe_website_login_container");
+    var pageWrap = $("#catp-wrap-spc");
 
     mainWrap.css('padding-top', getHeader.height());
+    mainClassWrap.css('padding-top', getHeader.height());
     loginWrap.css('padding-top', getHeader.height());
+    pageWrap.css('padding-top', getHeader.height());
 
 
     $(window).resize(function () {
 
         mainWrap.css('padding-top', getHeader.height());        
+        mainClassWrap.css('padding-top', getHeader.height());
         loginWrap.css('padding-top', getHeader.height());        
+        pageWrap.css('padding-top', getHeader.height());
 
     });
 
