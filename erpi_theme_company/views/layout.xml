@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- Customize header  -->
+    <template id="catp_comp_header" inherit_id="website.layout" name="Company Header">
+        
+        <!-- Assign an id  -->
+        <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+            <attribute name="id">catp-gheader</attribute>
+        </xpath>
+        <xpath expr="//header[@id='catp-gheader']/div[hasclass('navbar-static-top')]" position="attributes">
+            <attribute name="class">navbar navbar-default nav-main</attribute>
+        </xpath>
+
+        <!-- Add an element after the top menu  -->
+        <xpath expr="//div[@id='wrapwrap']/header/div" position="before">
+            <div class="container">
+                <div id="special-menu">               
+                    <nav class="navbar" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-special">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button> -->
+                                <form class="navbar-toggle form-inline nav-form">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <a type="submit" class="input-group-addon"><i class="fa fa-search"></i></a>
+                                                <input type="text" class="form-control" id="search-nav" placeholder="Ketik Untuk Mencari."/>
+                                        </div>
+                                    </div>
+                                </form>
+                            
+                        </div>
+                    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-special">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        <img src="/erpi_theme_company/static/img/id.png" alt="ID" height="20px" /> 
+                                        <!-- <i class="fa fa-language"></i> -->
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="js_language_selector mt16 dropdown-menu" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+                                        <li t-foreach="languages" t-as="lg">
+                                            <a
+                                                t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang=lg[0])"
+                                                t-att-data-default-lang="(editable or translatable) and 'true' if website and lg[0] == website.default_lang_code else None"
+                                                t-att-data-lang="lg[0]"
+                                                class="js_change_lang"
+                                            >
+                                                <t t-if="lg[0] == 'id_ID' ">
+                                                    <img src="/erpi_theme_company/static/img/id.png" alt="ID" height="20px" />
+                                                </t>
+                                                <t t-elif="lg[0] == 'en_US' ">
+                                                    <img src="/erpi_theme_company/static/img/en.png" alt="ID" height="20px" />
+                                                </t>
+                                                <t t-else="">
+                                                    <t t-esc="lg[1].split('/').pop()"/>
+                                                </t>
+                                            </a>
+                                        </li>
+                                        <li groups="website.group_website_publisher">
+                                            <t t-set="url_return" t-value="url_for('', '[lang]') + '?' + keep_query()"/>
+                                            <a t-attf-href="/web#action=base.action_view_base_language_install&amp;website_id=#{website.id if website else ''}&amp;url_return=#{url_return}">
+                                                <i class="fa fa-plus-circle"/>
+                                                Add a language...
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <form class="form-inline nav-form">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <a type="submit" class="input-group-addon"><i class="fa fa-search"></i></a>
+                                                    <input type="text" class="form-control" id="search-nav" placeholder="Ketik Untuk Mencari."/>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li><a href="#" class="afa afa-phone">024 764 05807</a></li>
+                                <li><a href="#" class="afa afa-envelope">info@erpindonesia.co.id</a></li>
+                                <li><a href="#" class="afa afa-marker">Lokasi</a></li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+                                        
+                </div>
+            </div>
+        </xpath>
+        <!-- Add an element after the top menu  -->
+        <!-- <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+            <section class="padd"></section>
+        </xpath> -->
+
+        <!-- Add an element after the top menu  -->
+        <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
+            <footer>
+                <section id="catp-comp-footer">
+                    <div class="container"  itemscope="itemscope" itemtype="http://schema.org/Organization">
+                        <div class="row-fluid">
+                            <div class="col-md-3 col-sm-12">
+                                <div class="cg-logo">
+                                    <img itemprop="logo" src="/erpi_theme_company/static/img/logo.png" alt="Logo" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="cg-info">
+                                    <h2 class="text-uppercase">
+                                        Contact Info
+                                    </h2>
+                                    <ul class="cg-list" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+                                        <li>
+                                            <i class="fa fa-map-marker"></i>
+                                            <p itemprop="streetAddress">Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            <p itemprop="telephone">024 764 95807</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i>
+                                            <p itemprop="email">info@erpindonesia.co.id</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="cg-follow">
+                                    <h2 class="text-uppercase">
+                                        Follow Us
+                                    </h2>
+                                    <p class="cg-socmed">
+                                        <a href="#" class="afa afa-twitter"></a>
+                                        <a href="#" class="afa afa-instagram"></a>
+                                        <a href="#" class="afa afa-facebook"></a>
+                                        <span itemprop="name">ERP Indonesia</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid copyright">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="text-center">Copyright <i class="fa fa-copyright"></i> 2018, All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </xpath>
+    </template>
+    
+
+</odoo>

@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
         $('header').hide();
         $(document).ready(function () {
             $('footer').hide();
+            $('#wrap').css('padding-top',0);
         });
         $(function () {
             var ncheader = $('#nc-header');
