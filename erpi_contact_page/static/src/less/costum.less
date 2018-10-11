@@ -1,0 +1,382 @@
+@main-bg-color:#FFFFFF;
+@yellow:#EEA342;
+@darkyellow:#BF7152;
+@ml-head:10px;
+@ptb-head:30px;
+@ptb-profile:20px;
+@text-white:#FFFFFF;
+@icon-violet:#6F186C;
+@share-icon:#008CFF;
+@share-icon-a:#003FFF;
+@def-text:#1B1B1B;
+@violet:#6F186C;
+@hr-color:#F2C887;
+@dark-violet:#542A6E;
+
+
+.nc-bg-grad-1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#380a48+0,9c2589+76,9c2589+100 */
+    background: rgb(56,10,72); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(56,10,72,1) 0%, rgba(156,37,137,1) 76%, rgba(156,37,137,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(56,10,72,1) 0%,rgba(156,37,137,1) 76%,rgba(156,37,137,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(56,10,72,1) 0%,rgba(156,37,137,1) 76%,rgba(156,37,137,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#380a48', endColorstr='#9c2589',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.nc-circle-icon{
+    border-radius: 100%;
+    border: 1px solid @icon-violet;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    transition: all .25s ease-out;
+    font-size: 20px;
+    padding: 6px 9px;
+}
+
+.nc-bg-grad-2{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#63097b+0,c53dba+76,c53dba+100 */
+    background: rgb(99,9,123); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(99,9,123,1) 0%, rgba(197,61,186,1) 76%, rgba(197,61,186,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(99,9,123,1) 0%,rgba(197,61,186,1) 76%,rgba(197,61,186,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(99,9,123,1) 0%,rgba(197,61,186,1) 76%,rgba(197,61,186,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63097b', endColorstr='#c53dba',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.nc-bg-grad-3{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#942585+0,380548+100 */
+    background: rgb(148,37,133); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(148,37,133,1) 0%, rgba(56,5,72,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(148,37,133,1) 0%,rgba(56,5,72,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(148,37,133,1) 0%,rgba(56,5,72,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#942585', endColorstr='#380548',GradientType=1 ); /* IE6-9 */
+}
+
+#nc_gets{
+    color: @def-text;
+    background-color: @main-bg-color;
+    .container{
+        width: 500px;
+    }
+    a{
+        text-decoration: none;
+        color: @def-text;
+        transition: all .25s ease-in;
+        &:hover,&:focus{
+            transition: all .25 ease-out;
+        }
+    }
+    #nc-header{
+        // background-image: url('../../img/bg-header-c.svg');
+        // background-size: cover;
+        .nc-bg-grad-1();
+        overflow: hidden;
+        padding-top: @ptb-head;
+        padding-bottom: @ptb-head;
+        position: relative;
+        .img-g{
+            position: absolute;
+            height: 100%;
+            right: 0;
+            bottom: 0;
+        }
+        .img-lg-1{
+            height: 60px;
+            margin-left: @ml-head;
+            transition: all .5s ease-in;
+        }
+        .desc{
+            color: @darkyellow;
+            margin-left: @ml-head;
+            font-size: 12px;
+            transition: all .5s ease-in;
+            p{
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+        }
+
+    }
+    .nc-head-active{
+        .img-lg-1{
+            height: 50px !important;
+            transition: all .3s ease-out !important;
+        }
+        .desc{
+            font-size: 10px !important;
+            transition: all .3s ease-out !important;
+        }
+    }
+    #nc-profile{
+        position: relative;
+        padding-top: @ptb-profile;
+        padding-bottom: @ptb-profile;
+        .nc-bg-grad-2();
+
+        .share{
+            .nc-circle-icon();
+            position: absolute;
+            right: 25px;
+            overflow: hidden;
+            border-color: @share-icon;
+            background-color: @share-icon;
+            color:@text-white;
+            height: 50px;
+            width: 50px;
+            top: -25px;
+            padding: 10px 14px;
+            transition: all .25s ease-in;
+
+            &:hover{
+                border-color: @share-icon-a;
+                background-color: @share-icon-a;
+            }
+            &:focus{
+                border-color: @share-icon-a;
+                background-color: @share-icon-a;
+            }
+
+            a{
+                &:hover{
+
+                }
+                &:focus{
+
+                }
+            }
+            i{
+                color: @text-white;
+            }
+            .img-share-btn{
+                height: 100%;
+            }
+        }
+        .pic{
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            width: 30%;
+
+            .img-profile{
+                width: 100%;
+            }
+        }
+        .profile-logo{
+            height: 30px;
+            .img-lg-2{
+                height: 100%;
+            }
+        }
+        .profile-name{
+            h1{
+                margin-bottom: 0px;
+                margin-top: 10px;
+                font-size: 30px;
+                color: @text-white;
+                font-weight: bold;
+            }
+            h3{
+                margin-bottom: 0px;
+                margin-top: 10px;
+                font-size: 20px;
+                color: @text-white;
+                font-weight: normal;
+            }
+        }
+    }
+    #nc-invite{
+        padding-top: @ptb-profile;
+        padding-bottom: @ptb-profile;
+        h3{
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .invite-btn-icon{
+            .nc-circle-icon();
+            border-color: @violet;
+            background-color: unset;
+            background: transparent;
+            transition: all .25s ease-in;
+            margin: 0 auto;
+            padding: 5px 9px;
+            i{
+                color:@violet
+            }
+            &:hover{
+                border-color: transparent;
+                background-color: unset;
+                .nc-bg-grad-3();
+                i{
+                    color: @text-white;
+                }
+            }
+            &:focus{
+                border-color:transparent;
+                background-color: unset;
+                .nc-bg-grad-3();
+                i{
+                    color: @text-white;
+                }
+            }
+        }
+        .invite-btn-desc{
+            p{
+                margin-top: 5px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .hr{
+        padding: 0px 15px;
+        hr{
+            border-color: @hr-color;
+            margin: 0;
+            padding: 0;
+            border-width: 2px;
+        }
+    }
+    #nc-desc{
+        padding-top: @ptb-profile;
+        padding-bottom: @ptb-profile;
+        .desc-title{
+            font-weight: bold;
+            color: @dark-violet;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .desc-address{
+            color: @dark-violet;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .desc-footer{
+            font-weight: bold;
+            color: @dark-violet;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+        a{
+            i{
+                margin-right: 5px;
+            }
+            &:hover,&:focus{
+                color: @dark-violet;
+            }
+        }
+    }
+   
+}
+ .circle-socmed-icon{
+    .nc-circle-icon();
+    border-color: @violet;
+    background-color: unset;
+    background: transparent;
+    transition: all .25s ease-in;
+    margin: 0 auto;
+    padding: 5px 9px;
+    i{
+        color:@violet
+    }
+    &:hover{
+        border-color: transparent;
+        background-color: unset;
+        .nc-bg-grad-3();
+        i{
+            color: @text-white;
+        }
+    }
+    &:focus{
+        border-color:transparent;
+        background-color: unset;
+        .nc-bg-grad-3();
+        i{
+            color: @text-white;
+        }
+    }
+}
+.floating-btn{
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    z-index: 9999;
+    .share-btn-float{
+        .nc-circle-icon();
+        position: absolute;
+        right: 0px;
+        overflow: hidden;
+        border-color:transparent;
+        background-color:#FFFFFF;
+        columns: #000000;
+        box-shadow: 2px 2px 4px #a8a8a8;
+        height: 50px;
+        width: 50px;
+        top: 0px;
+        padding: 10px 14px;
+        transition: all .25s ease-in;
+
+        &:hover{
+            border-color: @share-icon;
+            background-color: @share-icon;
+        }
+        &:focus{
+            border-color: @share-icon;
+            background-color: @share-icon;
+        }
+
+        a{
+            &:hover{
+
+            }
+            &:focus{
+
+            }
+        }
+        i{
+            color: #000000;
+        }
+        .img-share-btn{
+            height: 100%;
+        }
+    }
+    .download-btn-float{
+        .nc-circle-icon();
+        position: absolute;
+        right: 0px;
+        overflow: hidden;
+        border-color: @share-icon;
+        background-color: @share-icon;
+        color:@text-white;
+        height: 50px;
+        width: 50px;
+        box-shadow: 2px 2px 4px #a8a8a8;
+        top: 60px;
+        padding: 10px 14px;
+        transition: all .25s ease-in;
+
+        &:hover{
+            border-color: @share-icon-a;
+            background-color: @share-icon-a;
+        }
+        &:focus{
+            border-color: @share-icon-a;
+            background-color: @share-icon-a;
+        }
+
+        a{
+            &:hover{
+
+            }
+            &:focus{
+
+            }
+        }
+        i{
+            color: @text-white;
+        }
+        .img-share-btn{
+            height: 100%;
+        }
+    }
+}

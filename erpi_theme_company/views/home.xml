@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- === Costum Page === -->
+    <template id="catp_comp_home" name="Landing Page" >
+        <t t-call="website.layout">
+            <!-- <div id="wrap"> -->
+                <section class="welcome-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="welcome-content text-center">
+                                    <h1 class="welcome">
+                                        What We Do
+                                    </h1>
+                                    <p class="col-md-8 col-md-offset-2">
+                                        We believe that Aligned &amp; Integrated entrepreneurial wisdom can advance the human race forward To make a contribution to the world.
+                                    </p>
+                                    <div class="col-xs-12">
+                                        <a href="#" class="btn btn-orange">Read More</a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/logo.png" alt="Logo" />
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <p>
+                                    ERP INDONESIA Menawarkan berbagai solusi IT dan layanan korporat untuk berbagai ukuran perusahaan. Kami memahami perdagangan Nasional dan Internasional, Supply Chains, Logistik, Manufaktur, E-commerce, dalam konteks Indonesia, dan kami dapat mendukungnya dengan produk dan layanan terbaik di kelasnya secara professional
+                                </p>
+                                <a href="#" class="text-uppercase">Lebih Detail <i class="fa fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="can-do">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-xs-12">
+                                <h1 class="text-uppercase">
+                                    What We can do
+                                </h1>
+                                <p>
+                                    ERP INDONESIA is an development agency with great experience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row featured">
+                            <div class="col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/consulting.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Bussiness Consultant
+                                    </h3>
+                                    <p>
+                                        We help you understand the market and its behavior, the competition, and unleash your unique potentials. We help you boosting conversion rates and maximizing ROI.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/research.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Design &amp; Development
+                                    </h3>
+                                    <p>
+                                        We put a focal point on building strong core for e-commerce solutions through design and right technologies for each client with our magento-certified developers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/services.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Support &amp; Maintance
+                                    </h3>
+                                    <p>
+                                        Our own dedicated quality support and maintenance at your service. Collaborating with third-party vendors, we offer managed services for hosting and server.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <a href="#" class="btn btn-orange text-uppercase">Lihat Semua</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="services-sec">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-uppercase text-center">
+                                    Our Services
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row services">
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/dashboard.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Dashboard
+                                    </h3>
+                                    <p>
+                                        Our Core managemen module with Live Connect
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/purchase.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Purchase
+                                    </h3>
+                                    <p>
+                                        Quotations, Manage Orders, Manage Invoicing, Handle Product, Analyze, Multi Company Rules
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/accounting.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Accounting
+                                    </h3>
+                                    <p>
+                                        Accounting Management, Billing &amp; Invoicing, Cash Management
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/sales.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Sales
+                                    </h3>
+                                    <p>
+                                        Quotation Management, Invoice Management
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/human.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Human Resource
+                                    </h3>
+                                    <p>
+                                        General Explanation, Reference Framework, Costumizing, Technical Specification
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/payroll.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Payroll
+                                    </h3>
+                                    <p>
+                                        Employee Management, Organization Structure, Attendance Record and Control
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/ecommerce.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        E-Commerce
+                                    </h3>
+                                    <p>
+                                        Product Information Management, Website Building, Product Gallery, Online order
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_company/static/img/inventory.png" alt="Thumbnail" />
+                                </div>
+                                <div class="desc text-center">
+                                    <h3 class="text-uppercase">
+                                        Inventory
+                                    </h3>
+                                    <p>
+                                        Basic Operations, Advanced Routing, Productivity, Replenishments, Traceability, Products, Cost, Report
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="testi">
+                    <div class="img-overlay"></div>
+                    <div class="container"> 
+                        <div id="testi-carousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#testi-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testi-carousel" data-slide-to="1" class=""></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="carousel-caption">
+                                        <div class="item-desc col-md-8">
+                                            <div class="desc">
+                                                <i class="fa fa-quote-left"></i>
+                                                <p>Your customer support is the best i have experiencedwith any theme i have purchased. You have a theme that far exceeds all
+                                                others. Thanks for providing such a fantastic theme, all you efforts are greatly appreciated on our end.</p>
+                                            </div>
+                                            <div class="profile">
+                                                <div class="img-circle">
+                                                    <img src="/erpi_theme_company/static/img/people.png" alt="Profile" />
+                                                </div>
+                                                <div class="name">
+                                                    <p>Robert Dedjumadilakir</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="carousel-caption">
+                                        <div class="item-desc col-md-8">
+                                            <div class="desc">
+                                                <i class="fa fa-quote-left"></i>
+                                                <p>Your customer support is the best i have experiencedwith any theme i have purchased. You have a theme that
+                                                    far exceeds all others. Thanks for providing such a fantastic theme, all you efforts are greatly appreciated
+                                                    on our end.</p>
+                                            </div>
+                                            <div class="profile">
+                                                <div class="img-circle">
+                                                    <img src="/erpi_theme_company/static/img/people.png" alt="Profile" />
+                                                </div>
+                                                <div class="name">
+                                                    <p>Teguh Pambudi</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+                
+                <section class="clients">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-uppercase text-center">
+                                    Our Client
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row client-list">
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/luwak.png" alt="Logo" />   
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/rotary.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/ktm.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/marimas.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/arkof.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/pemuda.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/satria.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-4 item">
+                                <a href="#" target="_blank">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/pukat.png" alt="Logo" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <hr/>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="news">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-uppercase text-center">
+                                    Latest News
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row news-list">
+                            <t t-foreach="posts" t-as="post">
+                                <div class="col-sm-4 item">
+                                    <a t-attf-href="#{blog_url('', ['blog', 'post'], blog=post.blog_id, post=post)}">
+                                        <div class="img-box" t-attf-style="background-image: #{json.loads(post.cover_properties).get('background-image')};" t-log="post.cover_properties">
+                                        </div>
+                                        <div class="desc">
+                                            <h3 class="text-uppercase" t-field="post.name">
+                                                Untitled.
+                                            </h3>
+                                            <p t-field="post.post_date">Posted on October 1, 2018</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </t>
+                            <!-- <div class="col-sm-4 item">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/application.jpg" alt="Thumbnail" />
+                                    </div>
+                                    <div class="desc">
+                                        <h3 class="text-uppercase">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </h3>
+                                        <p>Posted on October 1, 2018</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 item">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/team.jpg" alt="Thumbnail" />
+                                    </div>
+                                    <div class="desc">
+                                        <h3 class="text-uppercase">
+                                            quasi corrupti dolorem quam similique praesentium
+                                        </h3>
+                                        <p>Posted on October 6, 2018</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 item">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="/erpi_theme_company/static/img/action.jpg" alt="Thumbnail" />
+                                    </div>
+                                    <div class="desc">
+                                        <h3 class="text-uppercase">
+                                           Minus ad cupiditate natus accusamus. Quas, asperiores?
+                                        </h3>
+                                        <p>Posted on October 16, 2018</p>
+                                    </div>
+                                </a>
+                            </div> -->
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <a href="#" class="btn btn-orange text-uppercase">Berita Lainnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <!-- === Snippets' area === -->
+                    <div class="oe_structure" />
+                </section>            
+            <!-- </div> -->
+        </t>
+    </template>
+
+
+
+
+    <!-- <record id="catp_gov_home_page" model="website.page">
+        <field name="name">Home</field>
+        <field name="website_published">True</field>
+        <field name="url">/home</field>
+        <field name="view_id" ref="catp_gov_home"/>
+    </record> -->
+    <!-- <record id="catp_gov_home_link" model="website.menu">
+        <field name="name">Home</field>
+        <field name="page_id" ref="catp_gov_home_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">1</field>
+    </record> -->
+
+ </odoo>

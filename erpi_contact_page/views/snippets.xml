@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+<template id="snippet_nc" name="Name Card Snippet">
+    <section class="snippet_nc">
+        <section id="nc_gets">
+            <div class="container">
+                <div class="floating-btn">
+                    <div class="share-btn-float">
+                        <a href="#" data-toggle="modal" data-target="#nc-share-modal">
+                            <i class="fa fa-share-alt"></i>
+                        </a>
+                    </div>
+                    <div class="download-btn-float">
+                        <a href="/erpi_contact_page/static/src/data/contactsjati.vcf" download="contact.vcf" target="_blank">
+                            <i class="fa fa-user-plus"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" id="nc-header">
+                    <img src="/erpi_contact_page/static/img/bg-g-c.png" alt="BG G" class="img-g" />
+                    <div class="col-xs-12">
+                        <img src="/erpi_contact_page/static/img/logo.svg" alt="" class="img-lg-1" />
+                    </div>
+                    <div class="col-xs-12 desc">
+                        <p>
+                            Alignment and integration technology
+                            <br/> Help Enterpreneur make a mark
+                            <br/> Caring wisely for the unthinkable
+                            <br/> Integrating enttrepreneural wisdom
+                        </p>
+                    </div>
+                </div>
+                <div class="row" id="nc-profile">
+                    <!-- <div class="share">
+                        <a href="#" data-toggle="modal" data-target="#nc-share-modal">
+                            <i class="fa fa-share-alt"></i>
+                        </a>
+                    </div> -->
+                    <!-- <div class="col-xs-4"> -->
+                        <div class="pic">
+                            <img src="/erpi_contact_page/static/img/people.svg" alt="" class="img-profile" />
+                        </div>
+                    <!-- </div> -->
+                    <div class="col-xs-8 col-xs-offset-4">
+                        <div class="profile-logo">
+                            <img src="/erpi_contact_page/static/img/logo-2.svg" alt="" class="img-lg-2" />
+                        </div>
+                        <div class="profile-name">
+                            <h1>
+                                Milka Ceria
+                                <p><t t-esc="content"/></p>
+                            </h1>
+                            <h3>
+                                Technical Manager
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="nc-invite">
+                    <h3 class="text-center">
+                        Invite Me
+                    </h3>
+                    <div class="col-xs-4 text-center">
+                        <a href="tel:+62248504458" target="_blank">
+                            <div class="invite-btn-icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="invite-btn-desc">
+                                <p>Call</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="mailto:info@getsmany.com?Subject=Say%20Hello" target="_blank">
+                            <div class="invite-btn-icon">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="invite-btn-desc">
+                                <p>Mail</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <a href="https://wa.me/628562667979?text=Hello%20There" target="_blank">
+                            <div class="invite-btn-icon">
+                                <i class="fa fa-whatsapp"></i>
+                            </div>
+                            <div class="invite-btn-desc">
+                                <p>Whatsapp</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row hr">
+                    <hr/>
+                </div>
+                <div class="row" id="nc-desc">
+                    <div class="col-xs-12">
+                        <p class="desc-title">
+                            PT. Getsmany Sinergi Indonesia
+                        </p>
+                        <p class="desc-address">
+                            Srondol Sari M1 Banyumanik, Semarang City, Central Java 50263, Indonesia
+                        </p>
+                        <p class="desc-footer">
+                            024 850 44 58 | info@getsmany.com
+                        </p>
+                    </div>
+                    <div class="col-xs-5">
+                        <p><a href="#">getsmany.com</a></p>
+                    </div>
+                    <div class="col-xs-7">
+                        <p>
+                            <a href="#" data-toggle="modal" data-target="#nc-socmed-modal">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-instagram"></i>
+                                getsmanyindonesia
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+             
+        <!-- Modal -->
+        <div class="modal fade" id="nc-share-modal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                        </button>
+                        <h4 class="modal-title" id="modelTitleId">Share</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                        <div class="addthis_inline_share_toolbox"></div>
+                    </div>
+                    <div class="modal-footer">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <!-- Modal Socmed -->
+        <div class="modal fade" id="nc-socmed-modal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true"><i class="fa fa-times"></i></span>
+                        </button>
+                        <h4 class="modal-title" id="modelTitleId">Check Our Social Media</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-3 text-center">
+                                <a href="#" target="_blank">
+                                    <div class="circle-socmed-icon">
+                                        <i class="fa fa-instagram"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-3 text-center">
+                                <a href="#" target="_blank">
+                                    <div class="circle-socmed-icon">
+                                        <i class="fa fa-facebook"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b6d595dab07a06c"></script>
+
+    </section>
+</template>
+
+<template id="catp_contact_snippet_icon" inherit_id="website.snippets" name="Place into bar">
+    <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+        <t t-snippet="erpi_contact_page.snippet_nc"
+        t-thumbnail="/erpi_contact_page/static/img/nc-thumb.png"/>
+    </xpath>
+</template>
+
+ </odoo>
