@@ -12,7 +12,7 @@
                             </a>
                         </div>
                         <div class="download-btn-float">
-                            <a href="/erpi_contact_page/static/src/lib/contacts.vcf" download="contact.vcf" target="_blank">
+                            <a href="/erpi_contact_page/static/src/data/contactsjati.vcf" download="contact.vcf" target="_blank">
                                 <i class="fa fa-user-plus"></i>
                             </a>
                         </div>

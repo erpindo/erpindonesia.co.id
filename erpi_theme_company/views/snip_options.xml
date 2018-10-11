@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <template id="snippet_catp_comp_opt" name="Snippet catp Company Options" inherit_id="website.snippet_options">
+        <xpath expr="//div[@data-js='background']" position="after">
+            <div data-selector=".snippet_catp_comp_paragraph"> <!-- Options group -->
+                <li class="dropdown-submenu">
+                    <a href="#"><i class="fa fa-bars"></i> catp Comp Option</a>
+                    <ul class="dropdown-menu"> <!-- Options list -->
+                        <li data-select-class="opt_text-center"><a>Text Center</a></li>
+                        <li data-select-class="opt_text-left"><a>Text Left</a></li>
+                        <li data-select-class="opt_text-right"><a>Text Right</a></li>
+                        <li data-select-class="opt_text-justify"><a>Text Justify</a></li>
+                        <li data-select-class="opt_hide"><a>hide</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div data-selector=".snippet-img-box"> <!-- Options group -->
+                <li class="dropdown-submenu">
+                    <a href="#"><i class="fa fa-bars"></i> catp Comp Option</a>
+                    <ul class="dropdown-menu"> <!-- Options list -->
+                        <li data-select-class="opt_img-center"><a>IMG Center</a></li>
+                        <li data-select-class="opt_img-left"><a>IMG Left</a></li>
+                        <li data-select-class="opt_img-right"><a>IMG Right</a></li>
+                        <li data-select-class="opt_hide"><a>hide</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div data-selector=".snippet_catp_page_header"> <!-- Options group -->
+                <li class="dropdown-submenu">
+                    <a href="#"><i class="fa fa-bars"></i> catp Comp Option</a>
+                    <ul class="dropdown-menu"> <!-- Options list -->
+                        <li data-select-class="opt_img-action"><a>Background Action</a></li>
+                        <li data-select-class="opt_img-application"><a>Background Application</a></li>
+                        <li data-select-class="opt_img-programming"><a>Background Programming</a></li>
+                        <li data-select-class="opt_img-team"><a>Background Team</a></li>
+                        <li data-select-class="opt_hide"><a>hide</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
