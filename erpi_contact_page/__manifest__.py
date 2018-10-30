@@ -7,7 +7,7 @@
     'website': 'https://www.erpindonesia.co.id/',
     'sequence': 900,
     'version': '11.0.1.0',
-    'depends': ['website'],
+    'depends': ['website', 'hr'],
     'version': '1.0',
     'author': 'PT. ERP Indonesia',
     'data': [
