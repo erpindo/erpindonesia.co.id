@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="wdgt-costum-style" name="Costum Style" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <link href="/erpi_indonesia_widget/static/src/less/costum.less" rel="stylesheet" type="text/less"/>
+        </xpath>
+    </template>
+    <template id="wdgt-costum-js" name="Costum jS" inherit_id="website.assets_frontend">
+        <xpath expr="link[last()]" position="after">
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/nod.js"></script>
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/jquery.mask.min.js"></script>
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/costum.js"></script>
+        </xpath>
+    </template>
+    <template id="wdgt-costum-js-back" name="Costum js Backend assets" inherit_id="website.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/nod.js"></script>
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/jquery.mask.min.js"></script>
+            <script type="text/javascript" src="/erpi_indonesia_widget/static/src/js/costum.js"></script>
+        </xpath>
+    </template>
+</odoo>

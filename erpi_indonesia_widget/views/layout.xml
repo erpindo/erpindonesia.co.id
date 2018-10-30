@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+     <!-- === Costum Page === -->
+    <template id="catp_test_form_page">
+        <t t-call="website.layout">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            
+                            <form action="#" method="POST" role="form">
+                                <legend>Form title</legend>
+                            
+                                <div class="form-group">
+                                    <label for="npwp">NPWP</label>
+                                    <input type="text" class="form-control npwp" id="npwp" placeholder="Input field" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="ktp">KTP</label>
+                                    <input type="text" class="form-control ktp" id="ktp" placeholder="Input field" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="hp">hp</label>
+                                    <input type="text" class="form-control hp" id="hp" placeholder="Input field" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="bpjs">BPJS</label>
+                                    <input type="text" class="form-control bpjs" id="bpjs" placeholder="Input field" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="kk">KK</label>
+                                    <input type="text" class="form-control kk" id="kk" placeholder="Input field" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="kks">KK</label>
+                                    <input widget="trial" type="text" class="form-control kks" id="kks" placeholder="Input field" />
+                                </div>
+                            
+                                
+                            
+                                <button type="submit" class="btn btn-primary submit-btn">Submit</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+
+
+
+
+
+
+    <record id="catp_form_page" model="website.page">
+        <field name="name">Test Form</field>
+        <field name="website_published">True</field>
+        <field name="url">/testform</field>
+        <field name="view_id" ref="catp_test_form_page"/>
+    </record>
+    <record id="catp_form_page_link" model="website.menu">
+        <field name="name">Test Form</field>
+        <field name="page_id" ref="catp_form_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">1</field>
+    </record>
+
+ </odoo>
