@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record id="ir_sequence_form_cron" model="ir.ui.view">
+      <field name="name">ir.sequence.form.cron</field>
+      <field name="model">ir.sequence</field>
+      <field name="inherit_id" ref="base.sequence_view"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='use_date_range']" position="after">
+          <field name="range_interval" attrs="{'invisible':[('use_date_range','=',False)]}"/>
+        </xpath>
+      </field>
+    </record>
+  </data>
+</odoo>
