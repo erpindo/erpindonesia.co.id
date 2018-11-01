@@ -3,7 +3,6 @@
 
 {
     'name': 'Company Profile Purple Theme',
-    'summary': 'Odoo Theme for Getsmany Company Profile',
     'category': 'Theme',
     'sequence': 900,
     'version': '1.0',
@@ -17,7 +16,7 @@
         'views/layout.xml',
         'views/snippets.xml',
         'views/snip_options.xml',
-        # 'views/home.xml',
+        'views/home.xml',
         # 'views/about.xml',
         # 'views/services.xml',
         # 'views/replace.xml',

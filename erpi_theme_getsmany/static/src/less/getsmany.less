@@ -1,0 +1,132 @@
+
+//getsmany style
+.hr-title{
+    height: 1px;
+    background-color: @bg-main;
+    width: 100px;
+    margin: 0 auto;
+}
+.news{
+    padding: @padsec;
+    h1{
+        margin-top: 24px;
+    }
+}
+.subscribe{
+    padding: @padsec*2 0px;
+    background-color: @bg-subscript;
+    h6{
+        color: @text-main;
+    }
+    .subs-form{
+        .form-group{
+            margin: 0px;
+            input{
+                height: 38px;
+                background-color: transparent;
+                border-radius: 1px;
+                border-color: transparent;
+                box-shadow: none;
+                border-bottom-color: @text-main;
+            }
+        }
+        .btn-orange{
+
+        }
+    }
+}
+
+.what-we-do{
+    padding: @padsec 0px;
+    .title{
+        h1{
+
+        }
+        p{
+
+        }
+    }
+    .item{
+        transition: all .5s ease-in;
+        background-color: @bg-item;
+        margin-top: @padsec/2;
+        .img-box{
+            height: 220px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            img{
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+            }
+            .img-overlay{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                background-color: @bg-over-item;
+                visibility: hidden;
+                opacity: 0;
+                transition: all .5s ease-in;
+            }
+        }
+        .item-desc{
+            height: 100px;
+            padding: 6px 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                margin: 0px;
+            }
+            p{
+                margin: 0px;
+                margin-top: 6px;
+                color: @text-primary;
+            }
+        }
+        &:hover,&:focus{
+            transition: all .5s ease-out;
+            .img-overlay{
+                visibility: visible;
+                opacity: .8;
+                transition: all .5s ease-out;
+            }
+        }
+    }
+
+}
+
+.about-sec{
+    .gm{
+        .top-t{
+            color: @text-link;
+        }   
+        h1{ 
+            margin: 11px 0px 18px 0px;
+        }
+        p{
+
+        }
+        a{
+
+        }
+    }
+}
+
+#home-carousel{
+    .carousel-indicators{
+        .active{
+            background-color: @bg-button;
+        }
+        li{
+            background-color: @bg-white;
+        }
+    }
+}
+
+
+// end gestmany style

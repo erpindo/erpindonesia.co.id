@@ -16,10 +16,17 @@
 @bg-footer:#F8F4FD;
 @bg-header:#52345F;
 @bg-button:#FF9900;
+@bg-white:#ffffff;
+@bg-over-item:#C8BBCD;
+@bg-item:#F9F9F9;
+@bg-subscript:#FCF5EA;
 @bg-button-active:#D59723;
 @text-link:#FF9900;
 @text-link-active:#D59723;
 @text-shine:#ffffff;
+@text-main:#515151;
+@text-primary:#5A3D66;
+
 
 .gradient-nav{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e0a3a+0,6d276c+21,1e0a3a+100 */
@@ -102,7 +109,7 @@ li{
 .btn-orange{
     background-color: @orange;
     color: @white;
-    border-radius: 50px;
+    border-radius: 1px;
     padding: 8px 24px;
     &:hover,&:focus{
         background-color: @darkorange;
@@ -457,6 +464,7 @@ li{
     }
     .navbar-default .navbar-nav > li > a{
         color: @white;
+        text-transform: uppercase;
     }
     .navbar-default .navbar-collapse{
         border-color: transparent;
@@ -713,7 +721,7 @@ li{
 }
 .testi{
     /* The image used */
-    background-image: url('/erpi_theme_getsmany/static/img/maxresdefault.jpg');
+    background-image: url('/erpi_theme_getsmany/static/img/team.jpg');
 
     /* Full height */
     min-height: 500px; 
@@ -727,11 +735,16 @@ li{
         position: absolute;
         height: 500px;
         width: 100%;
-        background: rgba(0,82,164,.5);
+        background: rgba(82,52,95,.8);
     }
     #testi-carousel{
-        .carousel-indicators .active{
-            background-color: @blue;
+        .carousel-indicators{
+            .active{
+                background-color: @bg-button;
+            }
+            li{
+                background-color: @bg-white;
+            }
         }
         .carousel-inner{
             .item{
@@ -747,8 +760,17 @@ li{
                     align-items: center;
                     .item-desc{
                         .desc{
+                            .top-t-desc{
+                                margin: 0px;
+                                color: @text-link;
+                            }
+                            h3{
+                                color: @text-shine;
+                                margin-bottom: 28px;
+                                margin-top: 11px;
+                            }
                             i{
-                                font-size: 50px;
+                                font-size: 24px;
                                 color: @orange;
                             }
                             p{
@@ -758,8 +780,8 @@ li{
                         .profile{
                             margin-top: @padsec;
                             .img-circle{
-                                height: 100px;
-                                width: 100px;
+                                height: 80px;
+                                width: 80px;
                                 overflow: hidden;
                                 border-radius: 100%;
                                 margin: 0 auto;
@@ -1112,85 +1134,4 @@ li{
 
 
 
-@media (max-width: @screen-xs-max) { 
-    #catp-gheader{
-        ul#top_menu{
-            li:nth-last-child(1){
-                border-radius: 0px;
-            }
-            li:nth-last-child(1).dropdown{
-                border-radius: 0px;
-            }
-        }
-        .navbar-collapse.navbar-top-collapse.collapse.in{
-            // .gradient-nav();
-        }
-    }
-    .services-sec{    
-        .services{
-            .item{
-                min-height: 200px;
-            }
-        }
-    }
-    #service-cont{
-        .line-service{
-            width: 2px;
-            height: 30px;
-            margin: 0 auto;
-            background-color: @line;
-        }
-        .item{
-            .img-box{
-                position: relative;
-                margin: 0 auto;
-                left: auto;
-                right: auto;
-                margin-bottom: 20px;
-            }
-        }
-    }
-}
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
-    .services-sec{
-        .services{
-            .item{
-                min-height: 300px;
-            }
-        }
-    }
-    #service-cont{
-        .line-service{
-            width: 2px;
-            height: 30px;
-            margin: 0 auto;
-            background-color: @line;
-        }
-        .item{
-            .img-box{
-                position: relative;
-                margin: 0 auto;
-                left: auto;
-                right: auto;
-                margin-bottom: 20px;
-            }
-        }
-    }
-}
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-    .contact-address{
-        .icon{
-            padding-left: 8%;
-            padding-right: 8%;
-        }
-    } 
-}
-@media (min-width: @screen-lg-min) { 
-    .contact-address{
-        .icon{
-            padding-left: 8%;
-            padding-right: 8%;
-        }
-    } 
-}
 
