@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <template id="catp_contactus_form" name="catp Contact Form" inherit_id="website.contactus" customize_show="True">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap">
+                    <div class="oe_structure"/>
+                    <div class="container">
+                        <div class="row">
+                            <hr/>
+                        </div>
+                        <div id="catp-contact-form">
+                            <div class="row">
+                                <h3 class="text-uppercase text-center">
+                                    Contact Form
+                                </h3>
+                            </div>
+                            <form id="cform" action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-field o_website_form_required_custom">
+                                            <input id="cf-name" placeholder="Name *" type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-field o_website_form_required_custom">
+                                            <input id="cf-email" placeholder="Email *" type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-field">
+                                            <input id="cf-phone" placeholder="Phone *" type="text" class="form-control o_website_form_input" name="phone" required="" t-att-value="request.params.get('phone', '')" />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group form-field o_website_form_required">
+                                            <input id="cf-company" placeholder="Company *" type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group form-field">
+                                            <input id="cf-how" placeholder="How Did You Find Us? *" type="text" class="form-control o_website_form_input" name="name" t-att-value="request.params.get('name', '')" />
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="form-group form-field o_website_form_required_custom">
+                                            <textarea id="cf-text" placeholder="Message *" class="form-control o_website_form_input" name="description" required="" rows="8"><t t-esc="request.params.get('description', '')"/></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                        <p>
+                                            <input type="checkbox" name="agreements-contact" id="cf-check"/>
+                                            I have read and agree to the Privacy Policy
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <p class="text-right">
+                                            * Indicates required field
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-3 col-sm-offset-9">
+                                        <a type="submit" class="btn btn-lg o_website_form_send btn-orange btn-block text-uppercase" id="cform-submit">Submit</a>
+                                        <span id="o_website_form_result"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="oe_structure"/>
+                </div>
+			</xpath>
+		</template>
+
+
+        <template id="catp_contactus_success" name="catp Contact Us Success" inherit_id="website_crm.contactus_thanks_ir_ui_view">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div id="wrap">
+                    <div class="oe_structure"/>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-10 col-sm-offset-1 col-xs-12">
+                                <h1>Thanks!</h1>
+                                <div class="alert alert-success">
+                                    Your message has been sent successfully.
+                                    <button type="button" class="close" data-dismiss="alert">&amp;times;</button>
+                                </div>
+                                <p>
+                                    We will get back to you shortly.
+                                </p>
+                                <p>
+                                    If you have an emergency, do not hesitate to contact us by phone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe_structure"/>
+                </div>
+			</xpath>
+		</template>
+
+
+        <template id="catp_comp_slides" inherit_id="website_slides.channels" name="catp Slides Company">
+        
+            <!-- Assign an id  -->
+            <xpath expr="//div[hasclass('container')]" position="attributes">
+                <attribute name="id">catp-wrap-spc</attribute>
+            </xpath>
+
+        </template>
+        <template id="catp_comp_slides_detail" inherit_id="website_slides.slide_detail_view" name="catp Slides Detail Company">
+        
+            <!-- Assign an id  -->
+            <xpath expr="//div[hasclass('container')]" position="attributes">
+                <attribute name="id">catp-wrap-spc</attribute>
+            </xpath>
+
+        </template>
+</odoo>

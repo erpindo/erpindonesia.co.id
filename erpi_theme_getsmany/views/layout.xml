@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- Customize header  -->
+    <template id="catp_comp_header" inherit_id="website.layout" name="Company Header">
+        
+        <!-- Assign an id  -->
+        <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+            <attribute name="id">catp-gheader</attribute>
+        </xpath>
+        <xpath expr="//header[@id='catp-gheader']/div[hasclass('navbar-static-top')]" position="attributes">
+            <attribute name="class">navbar navbar-default nav-main</attribute>
+        </xpath>
+
+        <!-- Add an element after the top menu  -->
+        <xpath expr="//div[@id='wrapwrap']/header/div" position="before">
+            <div class="container">
+                
+            </div>
+        </xpath>
+        <!-- Add an element after the top menu  -->
+        <!-- <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+            <section class="padd"></section>
+        </xpath> -->
+
+        <!-- Add an element after the top menu  -->
+        <xpath expr="//div[@id='wrapwrap']/footer" position="replace">
+            <footer>
+                <section id="catp-comp-footer">
+                    <div class="container"  itemscope="itemscope" itemtype="http://schema.org/Organization">
+                        <div class="row-fluid">
+                            <div class="col-sm-12">
+                                <div class="cg-logo">
+                                    <img itemprop="logo" src="/erpi_theme_getsmany/static/img/logo.png" alt="Logo" />
+                                </div>
+                                <div class="cg-info text-center">
+                                    <h2 class="text-uppercase">
+                                        Contact Info
+                                    </h2>
+                                    <ul class="cg-list" itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
+                                        <li>
+                                            <i class="fa fa-map-marker"></i>
+                                            <p itemprop="streetAddress">
+                                                Srondol Asri M1 Banyumanik, Semarang City, 
+                                                <br/>Central Java 50263, Indonesia.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-phone"></i>
+                                            <p itemprop="telephone">024 764 95807</p>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-envelope"></i>
+                                            <p itemprop="email">info@erpindonesia.co.id</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="cg-follow">
+                                    <p class="cg-socmed text-center">
+                                        <a href="#" class="afa afa-twitter"></a>
+                                        <a href="#" class="afa afa-instagram"></a>
+                                        <a href="#" class="afa afa-facebook"></a>
+                                        <a href="#" class="afa afa-linkedin"></a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid copyright">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="text-center">Copyright <i class="fa fa-copyright"></i> 2018, All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </xpath>
+    </template>
+    
+
+</odoo>
