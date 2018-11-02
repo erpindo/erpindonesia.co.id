@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="catp_contactus_form" name="catp Contact Form" inherit_id="website.contactus" customize_show="True">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap">
+                <section class="catp-page-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <ul class="breadcumb">
+                                    <li><a href="/">Home</a></li>
+                                    <li>/</li>
+                                    <li><a href="/contactus" class="active">Hubungi Kami</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-center text-uppercase">
+                                    Get In Touch
+                                </h1>   
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact-address">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-md-10 col-md-offset-1 col-xs-12">
+                                <h3 class="text-center">
+                                    WE WANT TO HELP YOU GET THE BEST OUT OF YOUR PROJECT
+                                </h3>
+                                <p>
+                                    If you have any questions, or would like to talk to us about what we can do for your business, please feel free to contact us.
+                                </p>
+                                <p>
+                                    We look forward to hearing from you…
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row icon">
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="col-xs-2">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    <p>
+                                        024 764 95807
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="col-xs-2">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    <p>
+                                        info@getsmany.com
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="col-xs-2">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    <p>
+                                        Srondol Asri M1 Banyumanik, Semarang City, Central Java 50263, Indonesia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+                <div class="container">
+                    <div class="row">
+                        <hr class="no-m" />
+                    </div>
+                    <div id="catp-contact-form">
+                        <div class="row">
+                            <h3 class="text-uppercase text-center">
+                                Contact Form
+                            </h3>
+                        </div>
+                        <form id="cform" action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-horizontal container-fluid mt32" enctype="multipart/form-data" data-editable-form="false">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group form-field o_website_form_required_custom">
+                                        <input id="cf-name" placeholder="Name *" type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required=""/>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group form-field o_website_form_required_custom">
+                                        <input id="cf-email" placeholder="Email *" type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group form-field">
+                                        <input id="cf-phone" placeholder="Phone *" type="text" class="form-control o_website_form_input" name="phone" required="" t-att-value="request.params.get('phone', '')" />
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group form-field o_website_form_required">
+                                        <input id="cf-company" placeholder="Company *" type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group form-field">
+                                        <input id="cf-how" placeholder="How Did You Find Us? *" type="text" class="form-control o_website_form_input" name="name" t-att-value="request.params.get('name', '')" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group form-field o_website_form_required_custom">
+                                        <textarea id="cf-text" placeholder="Message *" class="form-control o_website_form_input" name="description" required="" rows="8"><t t-esc="request.params.get('description', '')"/></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <p>
+                                        <input type="checkbox" name="agreements-contact" id="cf-check"/>
+                                        I have read and agree to the Privacy Policy
+                                    </p>
+                                </div>
+                                <div class="col-sm-3">
+                                    <p class="text-right">
+                                        * Indicates required field
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-3 col-sm-offset-9">
+                                    <a type="submit" class="btn btn-lg o_website_form_send btn-orange btn-block text-uppercase" id="cform-submit">Submit</a>
+                                    <span id="o_website_form_result"></span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <section class="subscribe">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h6>
+                                    Dapatkan Informasi Perkembangan Terkini dari <strong>Getsmany</strong>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row subs-form">
+                            <form action="" method="POST" class="form-horizontal" role="form">
+                                <div class="col-sm-6 col-sm-offset-2">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a type="submit" class="btn btn-block btn-orange text-uppercase">Daftar</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

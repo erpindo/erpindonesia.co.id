@@ -6,7 +6,7 @@
     'category': 'Theme',
     'sequence': 900,
     'version': '1.0',
-    'depends': ['website'],
+    'depends': ['website','website_blog','website_crm'],
     'version':'11.0.1.0',
     'author': "PT. ERP Indonesia",
     'website': "https://www.erpindonesia.co.id",
@@ -19,7 +19,8 @@
         'views/home.xml',
         'views/about.xml',
         # 'views/services.xml',
-        # 'views/replace.xml',
+        'views/replace.xml',
+        'views/contactus.xml',
     ],
     'images': [
         'static/description/cover.jpg',
