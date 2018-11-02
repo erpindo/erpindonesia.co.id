@@ -5,26 +5,6 @@
     <template id="catp_comp_home" name="Home Page" >
         <t t-call="website.layout">
             <!-- <div id="wrap"> -->
-                <!-- <section class="welcome-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="welcome-content text-center">
-                                    <h1 class="welcome">
-                                        What We Do
-                                    </h1>
-                                    <p class="col-md-8 col-md-offset-2">
-                                        We believe that Aligned &amp; Integrated entrepreneurial wisdom can advance the human race forward To make a contribution to the world.
-                                    </p>
-                                    <div class="col-xs-12">
-                                        <a href="#" class="btn btn-orange">Read More</a>
-                                    </div>
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
-
                 <section class="home-slider">
                     
                     <div id="home-carousel" class="carousel slide" data-ride="carousel">
@@ -51,7 +31,7 @@
                 <section class="about-sec">
                     <div class="container">
                         <div class="row gm">
-                            <div class="col-sm-8 col-sm-offset-2 text-center title">
+                            <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2 text-center title">
                                 <p class="top-t">
                                     <small>
                                         About Us
@@ -64,7 +44,7 @@
                                     GSI likens itself as a home to grow along with the great teams in it. With high enthusiasm in producing great products through cutting-edge technology, GSI wants to inspire and awaken people's lives to become better through Entrepreneurial Wisdom. In order to become a company with integrity, GSI has a set of wisdom values that are the basis for engaging enterprise and entrepreneurs to learn and grow faster …through the adoption and utilization of technology. 
                                 </p>
                                 <p>
-                                    <a href="#">
+                                    <a href="/about">
                                         Selengkapnya
                                     </a>
                                 </p>

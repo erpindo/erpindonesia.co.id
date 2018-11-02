@@ -886,29 +886,32 @@ li{
     }
 }
 .catp-page-header{
-    background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-        to right,
-      rgba(0,82,164,.8), 
-      rgba(0,82,164,.9)
-    ),
-    /* bottom, image */
-    url('/erpi_theme_getsmany/static/img/team.jpg');
+    // background: 
+    // /* top, transparent red, faked with gradient */ 
+    // linear-gradient(
+    //     to right,
+    //   rgba(82,52,95,1), 
+    //   rgba(82,52,95,1)
+    // ),
+    // /* bottom, image */
+    // url('/erpi_theme_getsmany/static/img/team.jpg');
+    background-color: @bg-main;
     background-position: center;
     background-size: cover;
     margin: 0px;
     .breadcumb{
         margin-top: @padsec;
         list-style: none;
-        margin-top: 10px;
+        margin: 0px;
+        margin-top: @padsec;
+        padding: 0px;
         li{
             display: inline-block;
             padding: 6px 2px;
             color: @white;
             a{
                 color: @white;
-                &:hover,&:focus{
+                &:hover,&:focus,&.active{
                     color: @orange;
                 }
             }
@@ -916,6 +919,7 @@ li{
     }
     h1{
         color: @white;
+        margin: 0px;
         margin-bottom: 50px;
     }
 }

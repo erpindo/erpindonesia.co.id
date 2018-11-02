@@ -17,7 +17,7 @@
         'views/snippets.xml',
         'views/snip_options.xml',
         'views/home.xml',
-        # 'views/about.xml',
+        'views/about.xml',
         # 'views/services.xml',
         # 'views/replace.xml',
     ],

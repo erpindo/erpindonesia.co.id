@@ -128,6 +128,94 @@
         }
     }
 }
-
+.gets-value{
+    padding: @padsec 0px;
+    h1{
+        margin: @padsec/2 0px;
+    }
+    .value-list{
+        ul{
+            padding: 0px;
+            list-style: none;
+            li{
+                margin-bottom: 16px;
+                .word{
+                    display: inline-block;
+                    vertical-align: top;
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: @text-primary;
+                    width: 50px;
+                    line-height: 1;
+                }
+                .desc{
+                    display: inline-block;
+                    width: ~"calc(100% - 55px)";
+                    p{
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+.pillars{
+    margin-bottom: @padsec;
+    .pillars-gal{
+        .item{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .img-box{
+                height: 220px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: cover;
+                    object-position: center;
+                    height: 100%;
+                    width: 100%;
+                }
+                .img-overlay{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    height: 100%;
+                    width: 100%;
+                    background-color: @bg-over-item;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all .5s ease-in;
+                }
+            }
+            .desc{
+                padding: 12px;
+                h3{
+                    margin: 0px;
+                    ol{
+                        padding-left: 22px;
+                        li{
+                            font-weight: bold;
+                        }
+                    }
+                }
+                ul{
+                    padding-left: 22px;
+                    li{
+                        color: @text-main;
+                    }
+                }
+            }
+            &:hover,&:focus{
+                transition: all .5s ease-out;
+                .img-overlay{
+                    visibility: visible;
+                    opacity: .8;
+                    transition: all .5s ease-out;
+                }
+            }
+        }
+    }
+}
 
 // end gestmany style
