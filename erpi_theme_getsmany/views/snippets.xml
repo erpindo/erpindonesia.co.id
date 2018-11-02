@@ -295,11 +295,11 @@
         <section class="snippet_catp_page_header catp-page-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 text-center">
                         <ul class="breadcumb">
                             <li><a href="/">Home</a></li>
                             <li>/</li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="#" class="active">About Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -621,4 +621,39 @@
     </template>
 <!-- end Services Section snippet -->
 
+
+<!-- Subscribe snippet -->
+     <template id="snippet_catp_subscribe" name="Subscribe Snippet">
+        <section class="snippet_catp_subscribe subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h6>
+                            Dapatkan Informasi Perkembangan Terkini dari <strong>Getsmany</strong>
+                        </h6>
+                    </div>
+                </div>
+                <div class="row subs-form">
+                    <form action="" method="POST" class="form-horizontal" role="form">
+                        <div class="col-sm-6 col-sm-offset-2">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <a type="submit" class="btn btn-block btn-orange text-uppercase">Daftar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_subscribe_icon" inherit_id="website.snippets" name="Icon Snippet Subscribe">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_getsmany.snippet_catp_subscribe"
+            t-thumbnail="/erpi_theme_getsmany/static/img/snippet/subscribe.png"/>
+        </xpath>
+    </template>
+<!-- end Get In Touch snippet -->
 </odoo>
