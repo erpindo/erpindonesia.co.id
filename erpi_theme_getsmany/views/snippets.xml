@@ -736,7 +736,7 @@
                         <ul class="breadcumb">
                             <li><a href="/">Home</a></li>
                             <li>/</li>
-                            <li><a href="/about">Bisnis</a></li>
+                            <li><a href="/business">Bisnis</a></li>
                             <li>/</li>
                             <li><a href="/about" class="active">Maestro</a></li>
                         </ul>
