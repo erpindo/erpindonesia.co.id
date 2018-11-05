@@ -234,4 +234,85 @@
         }
     }
 }
+.default-sec{
+    padding: @padsec 0px;
+    p{
+        margin-bottom: 0px;
+    }
+}
+.tit-bis{
+    
+}
+.bis-sec{
+    padding-bottom: @padsec;
+    .list-bis{
+        .imgs{
+            overflow: hidden;
+            padding: 0px;
+            .img-box{
+                height: 400px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: cover;
+                    object-position: center;
+                    height: 100%;
+                    width: 100%;
+                }
+                .img-overlay{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    height: 100%;
+                    width: 100%;
+                    background-color: @bg-over-item;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all .5s ease-in;
+                }
+            }
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 400px;
+            overflow: hidden;
+            padding: 0px 30px;
+            .title{
+                margin-top: 0px;
+                font-weight: bold;
+            }
+            .tagline{
+                font-weight: bold;
+                color: @text-primary;
+            }
+            .description{
+                ul{
+                    li{
+
+                    }
+                }
+            }
+            .desc-link {
+                margin-bottom: 0px;
+                a{
+                    
+                }
+            }
+        }
+        &:hover,&:focus{
+            .imgs{
+                .img-box{
+                    .img-overlay{
+                        visibility: visible;
+                        opacity: .3;
+                        transition: all .5s ease-out;
+                    }
+                }
+            }
+        }
+    }
+}
 // end gestmany style

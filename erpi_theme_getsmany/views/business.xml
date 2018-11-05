@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- === Costum Page === -->
+    <template id="catp_comp_business" name="About Us" >
+        <t t-call="website.layout">
+            <div id="wrap">
+                <section class="catp-page-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <ul class="breadcumb">
+                                    <li><a href="/">Home</a></li>
+                                    <li>/</li>
+                                    <li><a href="/about" class="active">Bisnis</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-center text-uppercase">
+                                    Business Service
+                                </h1>   
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="default-sec tit-bis">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2 text-center title">
+                                <p>
+                                    Giving birth to great products as a solution to your business problems with the following epic teams:    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bis-sec">
+                    <div class="container">
+                        <div class="row list-bis">
+                            <div class="col-sm-6 imgs">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_getsmany/static/img/maestro.png" alt="Partner"/>
+                                    <div class="img-overlay"></div>    
+                                </div>
+                            </div>
+                            <div class="col-sm-6 desc">
+                                <h2 class="title text-uppercase">
+                                    Maestro
+                                </h2>
+                                <p class="tagline">
+                                    Integrated Marketing Solution
+                                </p>
+                                <p class="description">
+                                    Maestro’s Vision is to become an agency that combines art and analytical technology to help modern brands communicate their uniqueness to the right target market. 
+                                    <br/>Some creative services from Maestro:
+                                    <ul>
+                                        <li>Branding</li>
+                                        <li>Digital Marketing</li>
+                                        <li>Website Design</li>
+                                        <li>Videography</li>
+                                        <li>Marketing Consultant</li>
+                                    </ul>
+                                </p>
+                                <p class="desc-link">
+                                    <a href="#" class="text-uppercase">More Details</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row list-bis">
+                            <div class="col-sm-6 desc">
+                                <h2 class="title text-uppercase">
+                                    Pendekar Jari Sakti
+                                </h2>
+                                <p class="tagline">
+                                    We Care Wisely
+                                </p>
+                                <p class="description">
+                                    PJS aims to light the world with generosity and care wisdom for many people in a very simple way, by updating the conventional work system into integrated technology, PJS guarantee your future by offering various forms of insurance, starting from life insurance, health, vehicle, liability, and other types of insurance. 
+                                    <br/>
+                                    PJS’s vision is to answer the problems of your life with thoughtful care through technological intelligence. 
+                                </p>
+                                <p class="desc-link">
+                                    <a href="#" class="text-uppercase">More Details</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-6 imgs">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_getsmany/static/img/pjs.png" alt="Partner"/>
+                                    <div class="img-overlay"></div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row list-bis">
+                            <div class="col-sm-6 imgs">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_getsmany/static/img/erp.png" alt="Partner"/>
+                                    <div class="img-overlay"></div>    
+                                </div>
+                            </div>
+                            <div class="col-sm-6 desc">
+                                <h2 class="title text-uppercase">
+                                    ERP Indonesia
+                                </h2>
+                                <p class="tagline">
+                                    AIT for Indonesia
+                                </p>
+                                <p class="description">
+                                    ERP Indonesia is present as a provider of the best business solutions for your company with Alignment &amp; Integration Technology (ATI). ERP Indonesia offers a variety of IT consultations from various business sizes of companies and will support your company by working wholeheartedly in development and services, starting from logistics, manufacturing, trading, distributors, supply chains, and others. 
+                                </p>
+                                <p class="desc-link">
+                                    <a href="#" class="text-uppercase">More Details</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row list-bis">
+                            <div class="col-sm-6 desc">
+                                <h2 class="title text-uppercase">
+                                    Getsmany Home Automation 
+                                </h2>
+                                <p class="tagline">
+                                    Make Your Smart Homey
+                                </p>
+                                <p class="description">
+                                    To meet an efficient lifestyle, you definitely need smart technology to support your life from all activities and jobs. Getsmany Home Automation is here to facilitate your life in controlling the entire contents of your home or business. With this Automation, all your devices can be connected simultaneously to one remote control (iPhone, Android, or other remote control) so that it can make it easier for you to control your home or company device without restrictions and can be from anywhere. So, you can live for smart and efficient lifestyle. 
+                                </p>
+                                <p class="desc-link">
+                                    <a href="#" class="text-uppercase">More Details</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-6 imgs">
+                                <div class="img-box">
+                                    <img src="/erpi_theme_getsmany/static/img/default.png" alt="Partner"/>
+                                    <div class="img-overlay"></div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="subscribe">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h6>
+                                    Dapatkan Informasi Perkembangan Terkini dari <strong>Getsmany</strong>
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="row subs-form">
+                            <form action="" method="POST" class="form-horizontal" role="form">
+                                <div class="col-sm-6 col-sm-offset-2">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2">
+                                    <a type="submit" class="btn btn-block btn-orange text-uppercase">Daftar</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <!-- === Snippets' area === -->
+                    <div class="oe_structure" />
+                </section>            
+            </div>
+        </t>
+    </template>
+
+
+
+
+    <record id="catp_comp_business_page" model="website.page">
+        <field name="name">Bisnis</field>
+        <field name="website_published">True</field>
+        <field name="url">/bussiness</field>
+        <field name="view_id" ref="catp_comp_business"/>
+    </record>
+    <record id="catp_comp_business_link" model="website.menu">
+        <field name="name">Bisnis</field>
+        <field name="page_id" ref="catp_comp_business_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">3</field>
+    </record>
+
+ </odoo>

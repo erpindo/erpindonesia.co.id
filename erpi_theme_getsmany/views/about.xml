@@ -252,7 +252,7 @@
         <field name="name">About Us</field>
         <field name="page_id" ref="catp_comp_about_page"/>
         <field name="parent_id" ref="website.main_menu" />
-        <field name="sequence" type="int">1</field>
+        <field name="sequence" type="int">2</field>
     </record>
 
  </odoo>
