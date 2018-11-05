@@ -655,5 +655,153 @@
             t-thumbnail="/erpi_theme_getsmany/static/img/snippet/subscribe.png"/>
         </xpath>
     </template>
-<!-- end Get In Touch snippet -->
+<!-- end Subscribe snippet -->
+
+<!-- Bisnis LIst snippet -->
+     <template id="snippet_catp_business" name="business Snippet">
+        <section class="snippet_catp_business bis-sec">
+            <div class="container">
+                <div class="row list-bis">
+                    <div class="col-sm-6 imgs">
+                        <div class="img-box">
+                            <img src="/erpi_theme_getsmany/static/img/maestro.png" alt="Partner"/>
+                            <div class="img-overlay"></div>    
+                        </div>
+                    </div>
+                    <div class="col-sm-6 desc">
+                        <h2 class="title text-uppercase">
+                            Maestro
+                        </h2>
+                        <p class="tagline">
+                            Integrated Marketing Solution
+                        </p>
+                        <p class="description">
+                            Maestro’s Vision is to become an agency that combines art and analytical technology to help modern brands communicate their uniqueness to the right target market. 
+                            <br/>Some creative services from Maestro:
+                            <ul>
+                                <li>Branding</li>
+                                <li>Digital Marketing</li>
+                                <li>Website Design</li>
+                                <li>Videography</li>
+                                <li>Marketing Consultant</li>
+                            </ul>
+                        </p>
+                        <p class="desc-link">
+                            <a href="#" class="text-uppercase">More Details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="row list-bis">
+                    <div class="col-sm-6 desc">
+                        <h2 class="title text-uppercase">
+                            Pendekar Jari Sakti
+                        </h2>
+                        <p class="tagline">
+                            We Care Wisely
+                        </p>
+                        <p class="description">
+                            PJS aims to light the world with generosity and care wisdom for many people in a very simple way, by updating the conventional work system into integrated technology, PJS guarantee your future by offering various forms of insurance, starting from life insurance, health, vehicle, liability, and other types of insurance. 
+                            <br/>
+                            PJS’s vision is to answer the problems of your life with thoughtful care through technological intelligence. 
+                        </p>
+                        <p class="desc-link">
+                            <a href="#" class="text-uppercase">More Details</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 imgs">
+                        <div class="img-box">
+                            <img src="/erpi_theme_getsmany/static/img/pjs.png" alt="Partner"/>
+                            <div class="img-overlay"></div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_business_icon" inherit_id="website.snippets" name="Icon Snippet business">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_getsmany.snippet_catp_business"
+            t-thumbnail="/erpi_theme_getsmany/static/img/snippet/business.png"/>
+        </xpath>
+    </template>
+<!-- end BIsnis snippet -->
+
+<!-- Detail Page snippet -->
+    <template id="snippet_catp_detail_page" name="Detail Page Snippet">
+        <section class="snippet_catp_detail_page catp-page-header with-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <ul class="breadcumb">
+                            <li><a href="/">Home</a></li>
+                            <li>/</li>
+                            <li><a href="/about">Bisnis</a></li>
+                            <li>/</li>
+                            <li><a href="/about" class="active">Maestro</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                        <div class="img-box">
+                            <img src="/erpi_theme_getsmany/static/img/logo-mas.png" alt="Partner"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_detail_page_icon" inherit_id="website.snippets" name="Icon Snippet Detail Page">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_getsmany.snippet_catp_detail_page"
+            t-thumbnail="/erpi_theme_getsmany/static/img/snippet/detail-header.png"/>
+        </xpath>
+    </template>
+<!-- end Detail Page snippet -->
+
+<!-- Featured Social snippet -->
+    <template id="snippet_catp_featsos" name="Featured Social Snippet">
+        <section class="snippet_catp_featsos featured-socmed">
+            <div class="container main-fs">
+                <div class="row">
+                    <div class="col-xs-12 fs-logo">
+                        <div class="img-box">
+                            <img src="/erpi_theme_getsmany/static/img/logo-mas-2.png" alt="Partner"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 desc text-center">
+                        <h2>
+                            We don’t even like the usual.
+                        </h2>
+                        <p>
+                            Intergrated Marketing from sunny Semarang.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 fs-socmed">
+                        <p class="cg-socmed text-center">
+                            <a href="#" class="afa afa-twitter"></a>
+                            <a href="#" class="afa afa-instagram"></a>
+                            <a href="#" class="afa afa-facebook"></a>
+                            <a href="#" class="afa afa-linkedin"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <template id="snippet_catp_featsos_icon" inherit_id="website.snippets" name="Icon Snippet Featured Social">
+        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+            <t t-snippet="erpi_theme_getsmany.snippet_catp_featsos"
+            t-thumbnail="/erpi_theme_getsmany/static/img/snippet/socmed.png"/>
+        </xpath>
+    </template>
+<!-- end Detail Page snippet -->
+
 </odoo>

@@ -140,7 +140,7 @@
                         </div>
                     </div>
                 </section>
-
+                <div class="oe_structure" />
 
                 <section class="subscribe">
                     <div class="container">
@@ -180,7 +180,7 @@
     <record id="catp_comp_business_page" model="website.page">
         <field name="name">Bisnis</field>
         <field name="website_published">True</field>
-        <field name="url">/bussiness</field>
+        <field name="url">/business</field>
         <field name="view_id" ref="catp_comp_business"/>
     </record>
     <record id="catp_comp_business_link" model="website.menu">

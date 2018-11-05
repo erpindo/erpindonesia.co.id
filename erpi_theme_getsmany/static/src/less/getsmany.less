@@ -315,4 +315,66 @@
         }
     }
 }
+.with-img{
+    .img-box{
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: @padsec;
+        padding-top: 10px;
+        img{
+            object-fit: contain;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.featured-socmed{
+    .main-fs{
+        padding-top: @padsec/2;
+        padding-bottom: @padsec/2;
+        background-color: @orange;
+        .fs-logo{
+            .img-box{
+                height: 80px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: contain;
+                    object-position: left;
+                    height: 100%;
+                }
+            }
+        }
+        .desc{
+            padding: @padsec 10%;
+            h2{
+                margin-top: 0px;
+                font-size: 8rem;
+                color: @text-shine;
+                font-weight: bold;
+            }
+            p{
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: @text-shine;
+            }
+        }
+        .fs-socmed{
+            a{
+                font-size: 3rem;
+                color: @text-shine;
+                margin: 0px 2%;
+                &:hover,&focus{
+                    opacity: .7;
+                }
+            }
+        }
+    }
+    
+}
 // end gestmany style
