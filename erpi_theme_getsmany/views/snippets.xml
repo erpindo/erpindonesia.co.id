@@ -633,17 +633,19 @@
                         </h6>
                     </div>
                 </div>
-                <div class="row subs-form">
-                    <form action="" method="POST" class="form-horizontal" role="form">
-                        <div class="col-sm-6 col-sm-offset-2">
-                            <div class="form-group">
-                                <input type="email" class="form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
+                <div class="o_newsletter_popup" data-list-id="1">
+                    <div class="row subs-form">
+                        <!-- <form action="" method="POST" class="form-horizontal" role="form"> -->
+                            <div class="col-sm-6 col-sm-offset-2">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="popup_subscribe_email form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-sm-2">
-                            <a type="submit" class="btn btn-block btn-orange text-uppercase">Daftar</a>
-                        </div>
-                    </form>
+                            <div class="col-sm-2">
+                                <a href="#" class="btn popup_subscribe_btn btn-block btn-orange text-uppercase">Daftar</a>
+                            </div>
+                        <!-- </form> -->
+                    </div>
                 </div>
             </div>
         </section>

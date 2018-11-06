@@ -6,7 +6,7 @@
     'category': 'Theme',
     'sequence': 900,
     'version': '1.0',
-    'depends': ['website','website_blog','website_crm'],
+    'depends': ['website','website_blog','website_crm','mass_mailing'],
     'version':'11.0.1.0',
     'author': "PT. ERP Indonesia",
     'website': "https://www.erpindonesia.co.id",

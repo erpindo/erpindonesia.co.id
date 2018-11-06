@@ -238,30 +238,6 @@
                     </div>
                 </section>
 
-                <section class="subscribe">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 text-center">
-                                <h6>
-                                    Dapatkan Informasi Perkembangan Terkini dari <strong>Getsmany</strong>
-                                </h6>
-                            </div>
-                        </div>
-                        <div class="row subs-form">
-                            <form action="" method="POST" class="form-horizontal" role="form">
-                                <div class="col-sm-6 col-sm-offset-2">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" id="subscribe-email" placeholder="ALAMAT EMAIL"/>
-                                    </div>
-                                </div>
-                                <div class="col-sm-2">
-                                    <a type="submit" class="btn btn-block btn-orange text-uppercase">Daftar</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-
                 <section>
                     <!-- === Snippets' area === -->
                     <div class="oe_structure" />
