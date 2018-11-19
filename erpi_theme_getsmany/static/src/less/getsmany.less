@@ -1,0 +1,380 @@
+
+//getsmany style
+.hr-title{
+    height: 1px;
+    background-color: @bg-main;
+    width: 100px;
+    margin: 0 auto;
+}
+.news{
+    padding: @padsec;
+    h1{
+        margin-top: 24px;
+    }
+}
+.subscribe{
+    padding: @padsec*2 0px;
+    background-color: @bg-subscript;
+    h6{
+        color: @text-main;
+    }
+    .subs-form{
+        .form-group{
+            margin: 0px;
+            input{
+                height: 38px;
+                background-color: transparent;
+                border-radius: 1px;
+                border-color: transparent;
+                box-shadow: none;
+                border-bottom-color: @text-main;
+            }
+        }
+        .btn-orange{
+
+        }
+    }
+}
+
+.what-we-do{
+    padding: @padsec 0px;
+    .title{
+        h1{
+
+        }
+        p{
+
+        }
+    }
+    .item{
+        transition: all .5s ease-in;
+        background-color: @bg-item;
+        margin-top: @padsec/2;
+        .img-box{
+            height: 220px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            img{
+                object-fit: cover;
+                object-position: center;
+                height: 100%;
+                width: 100%;
+            }
+            .img-overlay{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 100%;
+                width: 100%;
+                background-color: @bg-over-item;
+                visibility: hidden;
+                opacity: 0;
+                transition: all .5s ease-in;
+            }
+        }
+        .item-desc{
+            height: 100px;
+            padding: 6px 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h3{
+                margin: 0px;
+            }
+            p{
+                margin: 0px;
+                margin-top: 6px;
+                color: @text-primary;
+            }
+        }
+        &:hover,&:focus{
+            transition: all .5s ease-out;
+            .img-overlay{
+                visibility: visible;
+                opacity: .8;
+                transition: all .5s ease-out;
+            }
+        }
+    }
+
+}
+
+.about-sec{
+    .gm{
+        .top-t{
+            color: @text-link;
+        }   
+        h1{ 
+            margin: 11px 0px 18px 0px;
+        }
+        p{
+
+        }
+        a{
+
+        }
+    }
+}
+
+#home-carousel{
+    .carousel-indicators{
+        .active{
+            background-color: @bg-white;
+        }
+        li{
+            background-color: transparent;
+            box-shadow: unset;
+        }
+    }
+}
+.gets-value{
+    padding: @padsec 0px;
+    h1{
+        margin: @padsec/2 0px;
+    }
+    .value-list{
+        ul{
+            padding: 0px;
+            list-style: none;
+            li{
+                margin-bottom: 16px;
+                .word{
+                    display: inline-block;
+                    vertical-align: top;
+                    font-size: 40px;
+                    font-weight: bold;
+                    color: @text-primary;
+                    width: 50px;
+                    line-height: 1;
+                }
+                .desc{
+                    display: inline-block;
+                    width: ~"calc(100% - 55px)";
+                    p{
+                        margin: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+.pillars{
+    margin-bottom: @padsec;
+    .pillars-gal{
+        .item{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .img-box{
+                height: 220px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: cover;
+                    object-position: center;
+                    height: 100%;
+                    width: 100%;
+                }
+                .img-overlay{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    height: 100%;
+                    width: 100%;
+                    background-color: @bg-over-item;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all .5s ease-in;
+                }
+            }
+            .desc{
+                padding: 12px;
+                h3{
+                    margin: 0px;
+                    ol{
+                        padding-left: 22px;
+                        li{
+                            font-weight: bold;
+                        }
+                    }
+                }
+                ul{
+                    padding-left: 22px;
+                    li{
+                        color: @text-main;
+                    }
+                }
+            }
+            &:hover,&:focus{
+                transition: all .5s ease-out;
+                .img-overlay{
+                    visibility: visible;
+                    opacity: .8;
+                    transition: all .5s ease-out;
+                }
+            }
+        }
+    }
+}
+#jobs_grid{
+    ul.media-list{
+        li.media{
+            padding: 30px;
+            background-color: #FAFAFA;
+            border-radius: 2px;
+            .media-heading{
+                a{
+                    color: @text-primary;
+                }
+                small{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.default-sec{
+    padding: @padsec 0px;
+    p{
+        margin-bottom: 0px;
+    }
+}
+.tit-bis{
+    
+}
+.bis-sec{
+    padding-bottom: @padsec;
+    .list-bis{
+        .imgs{
+            overflow: hidden;
+            padding: 0px;
+            .img-box{
+                height: 400px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: cover;
+                    object-position: center;
+                    height: 100%;
+                    width: 100%;
+                }
+                .img-overlay{
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    height: 100%;
+                    width: 100%;
+                    background-color: @bg-over-item;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: all .5s ease-in;
+                }
+            }
+        }
+        .desc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 400px;
+            overflow: hidden;
+            padding: 0px 30px;
+            .title{
+                margin-top: 0px;
+                font-weight: bold;
+            }
+            .tagline{
+                font-weight: bold;
+                color: @text-primary;
+            }
+            .description{
+                ul{
+                    li{
+
+                    }
+                }
+            }
+            .desc-link {
+                margin-bottom: 0px;
+                a{
+                    
+                }
+            }
+        }
+        &:hover,&:focus{
+            .imgs{
+                .img-box{
+                    .img-overlay{
+                        visibility: visible;
+                        opacity: .3;
+                        transition: all .5s ease-out;
+                    }
+                }
+            }
+        }
+    }
+}
+.with-img{
+    .img-box{
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: @padsec;
+        padding-top: 10px;
+        img{
+            object-fit: contain;
+            object-position: center;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.featured-socmed{
+    .main-fs{
+        padding-top: @padsec/2;
+        padding-bottom: @padsec/2;
+        background-color: @orange;
+        .fs-logo{
+            .img-box{
+                height: 80px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                img{
+                    object-fit: contain;
+                    object-position: left;
+                    height: 100%;
+                }
+            }
+        }
+        .desc{
+            padding: @padsec 10%;
+            h2{
+                margin-top: 0px;
+                font-size: 8rem;
+                color: @text-shine;
+                font-weight: bold;
+            }
+            p{
+                margin-bottom: 0px;
+                font-weight: bold;
+                color: @text-shine;
+            }
+        }
+        .fs-socmed{
+            a{
+                font-size: 3rem;
+                color: @text-shine;
+                margin: 0px 2%;
+                &:hover,&focus{
+                    opacity: .7;
+                }
+            }
+        }
+    }
+    
+}
+// end gestmany style

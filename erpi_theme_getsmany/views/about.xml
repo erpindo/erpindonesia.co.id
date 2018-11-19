@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!-- === Costum Page === -->
+    <template id="catp_comp_about" name="About Us" >
+        <t t-call="website.layout">
+            <div id="wrap">
+                <section class="catp-page-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <ul class="breadcumb">
+                                    <li><a href="/">Home</a></li>
+                                    <li>/</li>
+                                    <li><a href="/about" class="active">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h1 class="text-center text-uppercase">
+                                    About Getsmany
+                                </h1>   
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="about-sec">
+                    <div class="container">
+                        <div class="row gm">
+                            <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2 text-center title">
+                                <h1 class="text-uppercase">
+                                    Who We Are
+                                </h1>
+                                <p>
+                                    Getsmany Sinergri Indonesia (GSI) likens itself as home to grow along with the great temas in it. 
+                                    With high enthusiasm in producing great products through cutting-edge technology, GSI wants to inspire and awaken people's lives to become better through Enterpreneurial Wisdom. 
+                                    In order to become a company with integrity, GSI has set of wisdom values that are the basis for engaging enterprise and enterpreneurs to learn and grow faster through the adoption and utilization of technology.  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="gets-value">
+                    <div class="container">
+                        <div class="row gm">
+                            <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2 text-center title">
+                                <div class="hr-title"></div>
+                                <h1 class="text-uppercase">
+                                    Getsmany Sinergri Indonesia Values
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2 value-list">
+                                <ul>
+                                    <li>
+                                        <div class="word">
+                                            G
+                                        </div>
+                                        <div class="desc">
+                                            <p><strong>God-Centered</strong></p>
+                                            <p>work as worship that aims to glorify God, and his implications for all stakeholders.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="word">
+                                            L
+                                        </div>
+                                        <div class="desc">
+                                            <p><strong>Loyal to Process</strong></p>
+                                            <p>work not only focuses on results, but is a disciplined, consistent, and continuous  improvement in doing the right process.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="word">
+                                            O
+                                        </div>
+                                        <div class="desc">
+                                            <p><strong>Obedient to The Truth</strong></p>
+                                            <p>work obediently and determined to build a work culture based on correct principles, policies, and practices.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="word">
+                                            R
+                                        </div>
+                                        <div class="desc">
+                                            <p>the <strong>Real Spirit of Excellence</strong></p>
+                                            <p>work enthusiastically, professionally, a high work ethic and always try to give the best to produce more than expected</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="word">
+                                            Y
+                                        </div>
+                                        <div class="desc">
+                                            <p><strong>Yielding Rights</strong></p>
+                                            <p>working with the awareness and sincerity that we are non-owner managers, willing to share and sacrifice for the common good and life in surrendering total rights to God</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pillars">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <div class="hr-title"></div>
+                                <h1 class="text-uppercase">
+                                    The 4 Pillars of GSI Future
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="row pillars-gal">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                    <div class="item">
+                                        <div class="img-box">
+                                            <img src="/erpi_theme_getsmany/static/img/default.png" alt="Pillars"/>
+                                            <div class="img-overlay"></div>    
+                                        </div>
+                                        <div class="desc">
+                                            <h3>
+                                                <ol start="1">
+                                                    <li>Capital Gathering</li>
+                                                </ol>
+                                            </h3>
+                                            <ul>
+                                                <li>Heart for education</li>
+                                                <li>Muscle in financial and brand equality</li>
+                                                <li>The reputation of an-enterpreneurial company</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                    <div class="item">
+                                        <div class="img-box">
+                                            <img src="/erpi_theme_getsmany/static/img/default.png" alt="Pillars"/>
+                                            <div class="img-overlay"></div>    
+                                        </div>
+                                        <div class="desc">
+                                            <h3>
+                                                <ol start="2">
+                                                    <li>Infrastructure</li>
+                                                </ol>
+                                            </h3>
+                                            <ul>
+                                                <li>Network of franchise</li>
+                                                <li>Network of community</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="clearfix visible-sm"></div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                    <div class="item">
+                                        <div class="img-box">
+                                            <img src="/erpi_theme_getsmany/static/img/default.png" alt="Pillars"/>
+                                            <div class="img-overlay"></div>    
+                                        </div>
+                                        <div class="desc">
+                                            <h3>
+                                                <ol start="3">
+                                                    <li>Integration</li>
+                                                </ol>
+                                            </h3>
+                                            <ul>
+                                                <li>Develop capabilities of tomorrow</li>
+                                                <li>Integrate new technology through continuous research</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#">
+                                    <div class="item">
+                                        <div class="img-box">
+                                            <img src="/erpi_theme_getsmany/static/img/default.png" alt="Pillars"/>
+                                            <div class="img-overlay"></div>    
+                                        </div>
+                                        <div class="desc">
+                                            <h3>
+                                                <ol start="4">
+                                                    <li>Wisdom In Data Technology</li>
+                                                </ol>
+                                            </h3>
+                                            <ul>
+                                                <li>Develop the wisdom corporately to provide a solution for our clients</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <!-- === Snippets' area === -->
+                    <div class="oe_structure" />
+                </section>            
+            </div>
+        </t>
+    </template>
+
+
+
+
+    <record id="catp_comp_about_page" model="website.page">
+        <field name="name">Tentang Kami</field>
+        <field name="website_published">True</field>
+        <field name="url">/about</field>
+        <field name="view_id" ref="catp_comp_about"/>
+    </record>
+    <record id="catp_comp_about_link" model="website.menu">
+        <field name="name">Tentang Kami</field>
+        <field name="page_id" ref="catp_comp_about_page"/>
+        <field name="parent_id" ref="website.main_menu" />
+        <field name="sequence" type="int">2</field>
+    </record>
+
+ </odoo>
